@@ -64,7 +64,7 @@
   tags: ""
 - curated_id: aTKLPW9AeQAh09DpOW/0/mK2tQUNNgIyAi3xy7MVsb4=_15d927dc6f3:4c85c0f:53d642ee
   item_date: "2017-07-30 00:43:23"
-  title: "91488fab4e065d4c2432730c6a99420b.jpg (480\xD7281)"
+  title: "91488fab4e065d4c2432730c6a99420b.jpg"
   url: https://s-media-cache-ak0.pinimg.com/originals/91/48/8f/91488fab4e065d4c2432730c6a99420b.jpg
   domain: s-media-cache-ak0.pinimg.com
   image: https://s-media-cache-ak0.pinimg.com/originals/91/48/8f/91488fab4e065d4c2432730c6a99420b.jpg
@@ -185,6 +185,9 @@
 - title: Industrial Pressure Meter
   tags: gauge,industrial
   image: https://farm8.staticflickr.com/7561/16123980839_a74a230990.jpg
+  small: ""
+  medium: ""
+  tags: ""
 - title: Kennicott
   tags: mining,buildings
   image: https://farm3.staticflickr.com/2929/14442380379_97ee7d5b48.jpg
