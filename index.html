@@ -5,7 +5,47 @@ title: Algorotoscope Images Working
 
 {% assign count = 0 %}
 {% assign images = site.data.images | sort: 'title' %}
+<script type="text/javascript">
+	function showme($rowcount)
+		{
 
+		if(document.getElementbyId('url-row-'+$rowcount).style.display == 'none')
+			{
+			document.getElementbyId('url-row-'+$rowcount).style.display = ''
+			}
+		else
+			{
+			document.getElementbyId('url-row-'+$rowcount).style.display = 'none'
+			}
+
+		if(document.getElementbyId('image-row-'+$rowcount).style.display == 'none')
+			{
+			document.getElementbyId('image-row-'+$rowcount).style.display = ''
+			}
+		else
+			{
+			document.getElementbyId('image-row-'+$rowcount).style.display = 'none'
+			}
+
+		if(document.getElementbyId('small-row-'+$rowcount).style.display == 'none')
+			{
+			document.getElementbyId('small-row-'+$rowcount).style.display = ''
+			}
+		else
+			{
+			document.getElementbyId('small-row-'+$rowcount).style.display = 'none'
+			}
+
+		if(document.getElementbyId('medium-row-'+$rowcount).style.display == 'none')
+			{
+			document.getElementbyId('medium-row-'+$rowcount).style.display = ''
+			}
+		else
+			{
+			document.getElementbyId('medium-row-'+$rowcount).style.display = 'none'
+			}
+		}
+</script>
 <h4>Algorotoscope Images Working Area</h4>
 <form id="all-images" style="padding: 0px; margin: 0px; width: 100%;">
 <div class="box alt">
@@ -22,11 +62,26 @@ title: Algorotoscope Images Working
 							<td><input type="text" name="title" id="title-{{ count }}" value="{{ image.title }}" style="width:100%;" /></td>
 						</tr>
 						<tr>
-							<td><strong>Tags:</strong></td>
+							<td onclick="showme('{{ count }}');"><strong>Tags:</strong></td>
 							<td><input type="text" name="tags" id="tags-{{ count }}" value="{{ image.tags }}" style="width:100%;" /></td>
 						</tr>
+						<tr id="url-row-{{ count }}" style="display: none;">
+							<td><strong>URL:</strong></td>
+							<td><input type="text" name="url" id="url-{{ count }}" value="{{ image.url }}" style="width:100%;" /></td>
+						</tr>
+						<tr id="image-row-{{ count }}" style="display: none;">
+							<td><strong>Image:</strong></td>
+							<td><input type="text" name="image" id="image-{{ count }}" value="{{ image.image }}" style="width:100%;" /></td>
+						</tr>
+						<tr id="small-row-{{ count }}" style="display: none;">
+							<td><strong>Small:</strong></td>
+							<td><input type="text" name="small" id="small-{{ count }}" value="{{ image.small }}" style="width:100%;" /></td>
+						</tr>
+						<tr id="medium-row-{{ count }}" style="display: none;">
+							<td><strong>Medium:</strong></td>
+							<td><input type="text" name="medium" id="medium-{{ count }}" value="{{ image.medium }}" style="width:100%;" /></td>
+						</tr>
 					</table>
-					<input type="hidden" name="image" id="image-{{ count }}" value="{{ image.image }}" />
 				</span>
 			</div>
 			{% assign count = count | plus: 1 %}
