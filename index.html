@@ -27,9 +27,9 @@ title: API Evangelist - Transparency
 					<img src="{{ images.url }}" alt="" />
 					{{ image.title }}
 				</span>
-			{% assign elements = images.url | split: '/' %}
-			{% for element in elements %}
-				element: {{ element }}<br />
+			{% assign segments = images.url | split: '/' %}
+			{% for segment in segments %}
+				segment: {{ segment }}<br />
 			{% endfor %}
 			</div>
 		{% endfor %}
