@@ -65,7 +65,7 @@ title: Algorotoscope Working
 						$i = {};
 						}
 
-		      console.log(element.name);
+		      //console.log(element.name);
 
 					$i[element.name] = element.value;
 
@@ -75,7 +75,7 @@ title: Algorotoscope Working
 						}
 					}
 				}
-			console.log($images);
+			//console.log($images);
 			$yaml_dump = jsyaml.dump($images);
 
 			document.getElementById('source').value = $yaml_dump;
@@ -110,7 +110,7 @@ title: Algorotoscope Working
 			<input type="button" onclick="savethis();" class="button special" value="Save Images" />
 		</center>
 
-		<textarea cols="10" rows="5" id="source" style="border: 1px solid #000; width: 100%; height: 350px;"></textarea>
+		<textarea cols="10" rows="1" id="source" style="border: 1px solid #000; width: 100%; height: 0px;"></textarea>
 
 	</div>
 </div>
