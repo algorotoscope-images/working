@@ -1,6 +1,5 @@
-#Contributing to API Evangelist
-Spot something wrong, like a typo, broken link, or another type of mistake? [API Evangelist](apievangelist.com) is driven by GitHub, so feel free to fork, fix, and issue a pull request.
+# Algorotoscope Images Working
 
-Have an idea for a story? Anyone can submit stories to API Evangelist—all you do is submit a pull request on the GitHub repo that runs the site. Obviously, stories have to meet Kin's standards, so be sure what you write fits with both the content and tone of the site, and be sure to note that you're making a guest post. It might help to be familiar with [Jekyll](https://help.github.com/articles/using-jekyll-with-pages/), and look in the _posts directory for examples to follow. You can write in either HTML or Markdown, whichever is easiest for you.
+This is my workbench for images I'm making available for use in my Algorotoscope machine learning image filter work. I'm aggregating the meta information for my source and target images, and evolving my approach to producing filtered images to behave much more like a pipeline.
 
-Thanks for paying attention!
+URL: http://working.images.rotoscope.work/
