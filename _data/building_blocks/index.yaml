@@ -1,0 +1,7 @@
+- building_block_id: transparency-report
+  type: Transparency
+  category: Transparency
+  name: Transparency Report
+  description: Providing a transpnarency report for the entire platform.
+  image: ''
+  tags: Transparency
