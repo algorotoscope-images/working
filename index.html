@@ -98,8 +98,8 @@ title: Algorotoscope Images Working
 					if($path==$writepath)
 						{
 						repo.writemanual('master',$writepath, $yaml_dump, 'Save', $sha, function(err) { });
-						console.log("writing " + $writepath);
-						alert("saved " + $writepath);
+						//console.log("writing " + $writepath);
+						//alert("saved " + $writepath);
 						}
 					});
 				});
@@ -110,7 +110,7 @@ title: Algorotoscope Images Working
 			<input type="button" onclick="savethis();" class="button special" value="Save Images" />
 		</center>
 
-		<textarea cols="10" rows="1" id="source" style="border: 1px solid #000; width: 100%; height: 0px;"></textarea>
+		<textarea cols="1" rows="1" id="source" style="border: 0px solid #FFF; width: 1%; height: 0px;"></textarea>
 
 	</div>
 </div>
