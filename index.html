@@ -36,6 +36,7 @@ title: Algorotoscope Images Working
 
 <div class="box alt">
 	<div class="row 50% uniform">
+
 		<script type="text/javascript">
 		function savethis()
 			{
@@ -78,7 +79,7 @@ title: Algorotoscope Images Working
 			//console.log($images);
 			$yaml_dump = jsyaml.dump($images);
 
-			document.getElementById('source').value = $yaml_dump;
+			//document.getElementById('source').value = $yaml_dump;
 
 			// Grab the token from cookie
 			$oAuthToken = Cookies.get('token');
@@ -109,14 +110,10 @@ title: Algorotoscope Images Working
 		<center>
 			<table align="center" width="50">
 				<tr>
-					<td>
-						<input type="button" onclick="savethis();" class="button special" value="Save Images" />
-					</td>
+					<td><input type="button" onclick="savethis();" class="button special" value="Save Images" /></td>
 				</tr>
 			</table>
 		</center>
-
-		<textarea cols="1" rows="1" id="source" style="border: 0px solid #FFF; width: 1%; height: 0px;"></textarea>
 
 	</div>
 </div>
