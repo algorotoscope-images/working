@@ -3,12 +3,11 @@ layout: default
 title: Algorotoscope Working
 ---
 
-<h4>Working</h4>
+<h4>Working-2</h4>
 <div class="box alt">
 	<div class="row 50% uniform">
 		{% assign count = 0 %}
 		{% assign images = site.data.images | sort: 'title' %}
-		<form id="all-images">
 		{% for image in images %}
 			<div class="4u">
 				<span class="image fit">
@@ -30,7 +29,6 @@ title: Algorotoscope Working
 			</div>
 			{% assign count = count | plus: 1 %}
 		{% endfor %}
-		</form>
 	</div>
 </div>
 
@@ -94,12 +92,12 @@ title: Algorotoscope Working
 					//console.log($writepath);
 					$path = treeValue['path'];
 					$sha = treeValue['sha'];
-					console.log($path + ' == ' + $writepath);
+					//console.log($path + ' == ' + $writepath);
 					if($path==$writepath)
 						{
 						repo.writemanual('master',$writepath, $yaml_dump, 'Save', $sha, function(err) { });
 						console.log("writing " + $writepath);
-						//alert("saved " + $writepath);
+						alert("saved " + $writepath);
 						}
 					});
 				});
