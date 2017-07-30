@@ -8,7 +8,7 @@ title: Algorotoscope Working
 	<div class="row 50% uniform">
 		{% assign count = 0 %}
 		{% assign images = site.data.images | sort: 'title' %}
-		<div id="all-images">
+		<form id="all-images">
 		{% for image in images %}
 			<div class="4u">
 				<span class="image fit">
@@ -30,7 +30,7 @@ title: Algorotoscope Working
 			</div>
 			{% assign count = count | plus: 1 %}
 		{% endfor %}
-		</div>
+		</form>
 	</div>
 </div>
 
