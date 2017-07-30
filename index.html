@@ -3,11 +3,12 @@ layout: default
 title: Algorotoscope Working
 ---
 
-<h4>Working-3</h4>
+<h4>Working</h4>
 <div class="box alt">
 	<div class="row 50% uniform">
 		{% assign count = 0 %}
 		{% assign images = site.data.images | sort: 'title' %}
+		<form id="all-images" style="width: 100%;">
 		{% for image in images %}
 			<div class="4u">
 				<span class="image fit">
@@ -29,6 +30,7 @@ title: Algorotoscope Working
 			</div>
 			{% assign count = count | plus: 1 %}
 		{% endfor %}
+		</form>
 	</div>
 </div>
 
