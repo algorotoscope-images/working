@@ -19,24 +19,24 @@
 - title: Industrial
   tags: 'factory,indstrial'
   image: 'https://farm2.staticflickr.com/1668/26222566386_1bee31cd64.jpg'
-- title: Industrial Pressuremeter
+- title: Industrial Pressure Meter
   tags: 'gauge,industrial'
   image: 'https://farm8.staticflickr.com/7561/16123980839_a74a230990.jpg'
 - title: Kennicott
-  tags: ''
+  tags: 'mining,buildings'
   image: 'https://farm3.staticflickr.com/2929/14442380379_97ee7d5b48.jpg'
 - title: Matrix Geen
   tags: 'matrix,filter'
   image: >-
     https://img.yescdn.ru/2016/09/18/cover/1579770a7430547adab146dad6418949-the-matrix-1474219610.jpg
 - title: Mining Bituminous Coal in Pennsylvania about 1900
-  tags: mining
+  tags: 'mining,drilling'
   image: 'https://farm2.staticflickr.com/1178/1337420326_15a52b895b.jpg'
 - title: Nighttime Paris traffic
-  tags: ''
+  tags: 'traffic,night,paris'
   image: 'https://farm1.staticflickr.com/24/91892622_b35fcfeab2.jpg'
 - title: Peace bridge
-  tags: ''
+  tags: bridge
   image: 'https://farm4.staticflickr.com/3846/14587361594_09bd1d915d.jpg'
 - title: Server Rack Close Up
   tags: 'servers,compute'
@@ -45,17 +45,17 @@
   tags: 'containers,shipping'
   image: 'https://farm9.staticflickr.com/8680/16025528755_600268a43b.jpg'
 - title: Stacking
-  tags: ''
+  tags: 'containers,shipping'
   image: 'https://farm9.staticflickr.com/8111/28433959812_981beea3cc.jpg'
 - title: Traffic
-  tags: ''
+  tags: traffic
   image: 'https://farm5.staticflickr.com/4268/34982868335_eb39110eed.jpg'
 - title: Twechie circuit board
-  tags: ''
+  tags: 'circuit,circuit board'
   image: 'https://farm6.staticflickr.com/5289/5233558496_dbe004a411.jpg'
 - title: industrial
-  tags: ''
+  tags: 'industrial,factory'
   image: 'https://farm3.staticflickr.com/2919/33932040916_901e53c5e0.jpg'
 - title: labyrinthine circuit board lines
-  tags: ''
+  tags: 'circuit,circuit board'
   image: 'https://farm3.staticflickr.com/2093/2435823037_7853d39e69.jpg'
