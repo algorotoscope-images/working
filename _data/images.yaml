@@ -12,7 +12,7 @@
   image: 'https://farm3.staticflickr.com/2636/3706659185_3bab309f46.jpg'
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: Alberto Giacometti 1
   tags: 'giacommetti,filters'
   url: >-
@@ -21,7 +21,25 @@
     http://4.bp.blogspot.com/-mXmrAN2dR40/VHNx_UqwilI/AAAAAAAEBHE/r8W1Wt9sB7A/s1600/Alberto%2BGiacometti%2BTutt%27Art%40-%2B(44).jpg
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
+  title: Alberto Giacometti 2
+  tags: 'alberto giacometti,filters'
+  url: >-
+    https://s-media-cache-ak0.pinimg.com/736x/b0/a7/24/b0a724aa8a2654e2c50388fe855ec144--alberto-giacometti-giacometti-drawings.jpg
+  image: >-
+    https://s-media-cache-ak0.pinimg.com/736x/b0/a7/24/b0a724aa8a2654e2c50388fe855ec144--alberto-giacometti-giacometti-drawings.jpg
+  small: ''
+  medium: ''
+- archive: archive
+  title: Alberto Giacometti 3
+  tags: 'alberto giacometti,filters'
+  url: >-
+    http://www.newsoftheartworld.com/wp-content/uploads/2015/10/giacometti-2-large.jpg
+  image: >-
+    http://www.newsoftheartworld.com/wp-content/uploads/2015/10/giacometti-2-large.jpg
+  small: ''
+  medium: ''
+- archive: archive
   title: 'An Orchard in Spring by Claude Monet, 1886'
   tags: 'monet,filters'
   url: 'http://farm2.staticflickr.com/1497/25956696501_26a8de14e8_o.jpg'
@@ -51,7 +69,7 @@
   image: 'https://farm6.staticflickr.com/5270/5670290643_d586421e58.jpg'
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: Claud Monet 2
   tags: 'monet,sunset,lake,boats,filters'
   url: >-
@@ -60,7 +78,7 @@
     http://webneel.com/daily/sites/default/files/images/daily/12-2014/7-monet-paintings.preview.jpg
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: Claude Monet Venice Twilight Painting
   tags: 'monet,sunset,venice,painting,filters'
   url: >-
@@ -90,7 +108,7 @@
   image: 'https://farm2.staticflickr.com/1257/1047673820_32957cf818.jpg'
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: Declaration of Independence
   tags: 'government,declaration of independence,documents,filters'
   url: 'http://cdn.history.com/sites/2/2014/01/declaration-of-independence.jpg'
@@ -111,7 +129,7 @@
   image: 'https://farm8.staticflickr.com/7564/15782393052_21e1ab20a7.jpg'
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: Emily Carr Forrest
   tags: 'emily carr, forrest, stumps,logging,environment,filters'
   url: >-
@@ -121,20 +139,20 @@
   small: ''
   medium: ''
 - archive: archive
+  title: Emily Carr The Raven
+  tags: 'emily carr,raven,filters'
+  url: >-
+    https://tce-live2.s3.amazonaws.com/media/media/f21b9ca8-fbcc-44d1-89ae-c9c043d89858.jpg
+  image: >-
+    https://tce-live2.s3.amazonaws.com/media/media/f21b9ca8-fbcc-44d1-89ae-c9c043d89858.jpg
+  small: ''
+  medium: ''
+- archive: archive
   title: Green Number Matrix
   tags: 'matrix,green,filters'
   url: ''
   image: >-
     https://img.yescdn.ru/2016/09/18/cover/1579770a7430547adab146dad6418949-the-matrix-1474219610.jpg
-  small: ''
-  medium: ''
-- archive: ''
-  title: Maurice Utrillo Rue Ravignan
-  tags: 'maurice utrillo,buildings,street,filters'
-  url: >-
-    https://image.invaluable.com/housePhotos/artcurial/53/560753/H1118-L73291604.jpg
-  image: >-
-    https://image.invaluable.com/housePhotos/artcurial/53/560753/H1118-L73291604.jpg
   small: ''
   medium: ''
 - archive: archive
@@ -160,6 +178,24 @@
   small: ''
   medium: ''
 - archive: archive
+  title: Marcel Duchamp. The King and Queen Surrounded by Swift Nudes
+  tags: 'marcel duchamp,filters'
+  url: >-
+    https://s-media-cache-ak0.pinimg.com/originals/b8/7c/5d/b87c5d13dd698527767a4da13f5fc257.jpg
+  image: >-
+    https://s-media-cache-ak0.pinimg.com/originals/b8/7c/5d/b87c5d13dd698527767a4da13f5fc257.jpg
+  small: ''
+  medium: ''
+- archive: archive
+  title: Maurice Utrillo Rue Ravignan
+  tags: 'maurice utrillo,buildings,street,filters'
+  url: >-
+    https://image.invaluable.com/housePhotos/artcurial/53/560753/H1118-L73291604.jpg
+  image: >-
+    https://image.invaluable.com/housePhotos/artcurial/53/560753/H1118-L73291604.jpg
+  small: ''
+  medium: ''
+- archive: archive
   title: Mining Bituminous Coal in Pennsylvania about 1900
   tags: 'mining,drilling'
   url: ''
@@ -173,7 +209,7 @@
   image: 'https://farm5.staticflickr.com/4042/4485687240_cfd59cbdbb.jpg'
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: Molly Crabapple - Hands Up Dont Shoot
   tags: 'molly crabapple,racism,policing'
   url: >-
@@ -182,7 +218,7 @@
     https://8602-presscdn-0-85-pagely.netdna-ssl.com/wp-content/gallery/political/tumblr_nas53b33YV1qzocfyo1_1280.jpg
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: Molly Crabapple Guantamo Bay
   tags: 'molly crabapple,guantanamo,barbed wire,prison,filters'
   url: >-
@@ -205,7 +241,7 @@
   image: 'https://farm1.staticflickr.com/24/91892622_b35fcfeab2.jpg'
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: Pablo Picasso 1
   tags: 'picasso,dark,filters'
   url: >-
@@ -214,14 +250,14 @@
     https://phulme.files.wordpress.com/2009/04/pablo-picasso-painting-the-old-guitarist2.jpg
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: Pablo Picasso 2
   tags: 'picasso,filters'
   url: 'http://ecmc.rochester.edu/rdm/graphics/tm.jpg'
   image: 'http://ecmc.rochester.edu/rdm/graphics/tm.jpg'
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: Pablo Picasso 3
   tags: 'picasso,filters'
   url: >-
@@ -230,7 +266,7 @@
     https://s-media-cache-ak0.pinimg.com/originals/5c/c5/46/5cc546cf63685ab6280c55411421bf0d.jpg
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: Pablo Picasso Portrai
   tags: 'picasso,filters'
   url: >-
@@ -253,49 +289,49 @@
   image: 'https://farm9.staticflickr.com/8523/8533890844_be97734f50.jpg'
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: Shipping Containers Under Bridge
   tags: 'shipping,containers,bridge'
   url: ''
   image: 'https://farm9.staticflickr.com/8680/16025528755_600268a43b.jpg'
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: Stacking
   tags: 'shipping,containers'
   url: ''
   image: 'https://farm9.staticflickr.com/8111/28433959812_981beea3cc.jpg'
   small: ''
   medium: ''
-- archive: ''
-  title: The Potato Eaters
-  tags: 'picasso,filters'
-  url: >-
-    https://learnodo-newtonic.com/wp-content/uploads/2014/11/The-Potato-Eaters-1885-Vincent-Van-Gogh.jpg
-  image: >-
-    https://learnodo-newtonic.com/wp-content/uploads/2014/11/The-Potato-Eaters-1885-Vincent-Van-Gogh.jpg
-  small: ''
-  medium: ''
-- archive: ''
+- archive: archive
   title: The Consitution
   tags: 'government,constitution,documents,filters'
   url: 'http://www.activistpost.com/wp-content/uploads/2013/05/us-constitution1.jpg'
   image: 'http://www.activistpost.com/wp-content/uploads/2013/05/us-constitution1.jpg'
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: The Face of War
   tags: 'salvador dali,paintings,filters'
   url: ''
   image: 'https://www.dalipaintings.com/images/paintings/the-face-of-war.jpg'
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: The Persistence of Memory
   tags: 'salvador dali,paintings,filters'
   url: ''
   image: >-
     http://webneel.com/daily/sites/default/files/images/daily/09-2013/4-the-persistence-of-memory-surreal-art-by-salvador-dali.jpg
+  small: ''
+  medium: ''
+- archive: archive
+  title: The Potato Eaters
+  tags: 'picasso,filters'
+  url: >-
+    https://learnodo-newtonic.com/wp-content/uploads/2014/11/The-Potato-Eaters-1885-Vincent-Van-Gogh.jpg
+  image: >-
+    https://learnodo-newtonic.com/wp-content/uploads/2014/11/The-Potato-Eaters-1885-Vincent-Van-Gogh.jpg
   small: ''
   medium: ''
 - archive: archive
@@ -321,61 +357,25 @@
     https://static1.squarespace.com/static/5422d6f9e4b0a493693d03c6/55196964e4b0f81fe4219515/5519696ce4b0f81fe421954f/1427728748506/vincent-van-gogh-starry-night-3077.jpg
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: Wassily Kandinsky 4
   tags: 'kandinsky,filters'
   url: 'http://www.theartstory.org/images20/works/kandinsky_wassily_4.jpg'
   image: 'http://www.theartstory.org/images20/works/kandinsky_wassily_4.jpg'
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: Wassily Kandinsky 8
   tags: 'kandinsky,dark,filters'
   url: 'http://www.theartstory.org/images20/works/kandinsky_wassily_8.jpg'
   image: 'http://www.theartstory.org/images20/works/kandinsky_wassily_8.jpg'
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: Wassily Kandinsky Yellow
   tags: 'kandinsky,filters'
   url: 'http://www.wassily-kandinsky.org/images/gallery/Yellow-Red-Blue.jpg'
   image: 'http://www.wassily-kandinsky.org/images/gallery/Yellow-Red-Blue.jpg'
-  small: ''
-  medium: ''
-- archive: ''
-  title: Alberto Giacometti 2
-  tags: 'alberto giacometti,filters'
-  url: >-
-    https://s-media-cache-ak0.pinimg.com/736x/b0/a7/24/b0a724aa8a2654e2c50388fe855ec144--alberto-giacometti-giacometti-drawings.jpg
-  image: >-
-    https://s-media-cache-ak0.pinimg.com/736x/b0/a7/24/b0a724aa8a2654e2c50388fe855ec144--alberto-giacometti-giacometti-drawings.jpg
-  small: ''
-  medium: ''
-- archive: ''
-  title: Marcel Duchamp. The King and Queen Surrounded by Swift Nudes
-  tags: 'marcel duchamp,filters'
-  url: >-
-    https://s-media-cache-ak0.pinimg.com/originals/b8/7c/5d/b87c5d13dd698527767a4da13f5fc257.jpg
-  image: >-
-    https://s-media-cache-ak0.pinimg.com/originals/b8/7c/5d/b87c5d13dd698527767a4da13f5fc257.jpg
-  small: ''
-  medium: ''
-- archive: ''
-  title: Emily Carr The Raven
-  tags: 'emily carr,raven,filters'
-  url: >-
-    https://tce-live2.s3.amazonaws.com/media/media/f21b9ca8-fbcc-44d1-89ae-c9c043d89858.jpg
-  image: >-
-    https://tce-live2.s3.amazonaws.com/media/media/f21b9ca8-fbcc-44d1-89ae-c9c043d89858.jpg
-  small: ''
-  medium: ''
-- archive: ''
-  title: Alberto Giacometti 3
-  tags: 'alberto giacometti,filters'
-  url: >-
-    http://www.newsoftheartworld.com/wp-content/uploads/2015/10/giacometti-2-large.jpg
-  image: >-
-    http://www.newsoftheartworld.com/wp-content/uploads/2015/10/giacometti-2-large.jpg
   small: ''
   medium: ''
 - archive: archive
