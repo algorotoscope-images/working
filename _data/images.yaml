@@ -223,6 +223,22 @@
   image: 'https://farm1.staticflickr.com/24/91892622_b35fcfeab2.jpg'
   small: ''
   medium: ''
+- archive: ''
+  title: Pablo Picasso 1
+  tags: 'picasso,dark'
+  url: >-
+    https://phulme.files.wordpress.com/2009/04/pablo-picasso-painting-the-old-guitarist2.jpg
+  image: >-
+    https://phulme.files.wordpress.com/2009/04/pablo-picasso-painting-the-old-guitarist2.jpg
+  small: ''
+  medium: ''
+- archive: ''
+  title: Pablo Picasso 2
+  tags: picasso
+  url: 'http://ecmc.rochester.edu/rdm/graphics/tm.jpg'
+  image: 'http://ecmc.rochester.edu/rdm/graphics/tm.jpg'
+  small: ''
+  medium: ''
 - archive: archive
   title: Peace bridge
   tags: bridge
@@ -275,23 +291,46 @@
     http://webneel.com/daily/sites/default/files/images/daily/09-2013/4-the-persistence-of-memory-surreal-art-by-salvador-dali.jpg
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: Traffic
-  tags: traffic
+  tags: 'traffic,freeway'
   url: ''
   image: 'https://farm5.staticflickr.com/4268/34982868335_eb39110eed.jpg'
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: Twechie circuit board
   tags: 'circuit,circuit board,filters'
   url: ''
   image: 'https://farm6.staticflickr.com/5289/5233558496_dbe004a411.jpg'
   small: ''
   medium: ''
+- archive: archive
+  title: Vincent Van Gogh The Starry Night
+  tags: 'van gogh, starry night,filters'
+  url: >-
+    https://static1.squarespace.com/static/5422d6f9e4b0a493693d03c6/55196964e4b0f81fe4219515/5519696ce4b0f81fe421954f/1427728748506/vincent-van-gogh-starry-night-3077.jpg
+  image: >-
+    https://static1.squarespace.com/static/5422d6f9e4b0a493693d03c6/55196964e4b0f81fe4219515/5519696ce4b0f81fe421954f/1427728748506/vincent-van-gogh-starry-night-3077.jpg
+  small: ''
+  medium: ''
 - archive: ''
-  title: Yellow
-  tags: ''
+  title: Wassily Kandinsky 4
+  tags: 'kandinsky,filters'
+  url: 'http://www.theartstory.org/images20/works/kandinsky_wassily_4.jpg'
+  image: 'http://www.theartstory.org/images20/works/kandinsky_wassily_4.jpg'
+  small: ''
+  medium: ''
+- archive: ''
+  title: Wassily Kandinsky 8
+  tags: 'kandinsky,dark,filters'
+  url: 'http://www.theartstory.org/images20/works/kandinsky_wassily_8.jpg'
+  image: 'http://www.theartstory.org/images20/works/kandinsky_wassily_8.jpg'
+  small: ''
+  medium: ''
+- archive: ''
+  title: Wassily Kandinsky Yellow
+  tags: 'kandinsky,filters'
   url: 'http://www.wassily-kandinsky.org/images/gallery/Yellow-Red-Blue.jpg'
   image: 'http://www.wassily-kandinsky.org/images/gallery/Yellow-Red-Blue.jpg'
   small: ''
@@ -315,8 +354,8 @@
   small: ''
   medium: ''
 - archive: ''
-  title: declaration
-  tags: ''
+  title: Declaration of Independence
+  tags: 'government,declaration of independence,documents'
   url: 'http://cdn.history.com/sites/2/2014/01/declaration-of-independence.jpg'
   image: 'http://cdn.history.com/sites/2/2014/01/declaration-of-independence.jpg'
   small: ''
@@ -346,20 +385,6 @@
   image: 'https://farm3.staticflickr.com/2919/33932040916_901e53c5e0.jpg'
   small: ''
   medium: ''
-- archive: ''
-  title: Wassily Kandinsky 4
-  tags: kandinsky
-  url: 'http://www.theartstory.org/images20/works/kandinsky_wassily_4.jpg'
-  image: 'http://www.theartstory.org/images20/works/kandinsky_wassily_4.jpg'
-  small: ''
-  medium: ''
-- archive: ''
-  title: Wassily Kandinsky 8
-  tags: 'kandinsky,dark'
-  url: 'http://www.theartstory.org/images20/works/kandinsky_wassily_8.jpg'
-  image: 'http://www.theartstory.org/images20/works/kandinsky_wassily_8.jpg'
-  small: ''
-  medium: ''
 - archive: archive
   title: labyrinthine circuit board lines
   tags: 'circuit,circuit board,filters'
@@ -375,24 +400,8 @@
   small: ''
   medium: ''
 - archive: ''
-  title: Pablo Picasso 1
-  tags: 'picasso,dark'
-  url: >-
-    https://phulme.files.wordpress.com/2009/04/pablo-picasso-painting-the-old-guitarist2.jpg
-  image: >-
-    https://phulme.files.wordpress.com/2009/04/pablo-picasso-painting-the-old-guitarist2.jpg
-  small: ''
-  medium: ''
-- archive: ''
-  title: Pablo Picasso 2
-  tags: picasso
-  url: 'http://ecmc.rochester.edu/rdm/graphics/tm.jpg'
-  image: 'http://ecmc.rochester.edu/rdm/graphics/tm.jpg'
-  small: ''
-  medium: ''
-- archive: ''
-  title: tumblr_nas53b33YV1qzocfyo1_1280.jpg
-  tags: ''
+  title: Molly Crabapple - Hands Up Dont Shoot
+  tags: 'molly crabapple,racism,policing'
   url: >-
     https://8602-presscdn-0-85-pagely.netdna-ssl.com/wp-content/gallery/political/tumblr_nas53b33YV1qzocfyo1_1280.jpg
   image: >-
@@ -400,18 +409,9 @@
   small: ''
   medium: ''
 - archive: ''
-  title: us
-  tags: ''
+  title: The Consitution
+  tags: 'government,constitution,documents'
   url: 'http://www.activistpost.com/wp-content/uploads/2013/05/us-constitution1.jpg'
   image: 'http://www.activistpost.com/wp-content/uploads/2013/05/us-constitution1.jpg'
-  small: ''
-  medium: ''
-- archive: ''
-  title: Vincent Van Gogh The Starry Night
-  tags: 'van gogh, starry night'
-  url: >-
-    https://static1.squarespace.com/static/5422d6f9e4b0a493693d03c6/55196964e4b0f81fe4219515/5519696ce4b0f81fe421954f/1427728748506/vincent-van-gogh-starry-night-3077.jpg
-  image: >-
-    https://static1.squarespace.com/static/5422d6f9e4b0a493693d03c6/55196964e4b0f81fe4219515/5519696ce4b0f81fe421954f/1427728748506/vincent-van-gogh-starry-night-3077.jpg
   small: ''
   medium: ''
