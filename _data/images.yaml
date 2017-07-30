@@ -1,5 +1,5 @@
-- title: 91488fab4e065d4c2432730c6a99420b.jpg
-  tags: ''
+- title: Industrial Mural
+  tags: 'industrial,painting,filters'
   image: >-
     https://s-media-cache-ak0.pinimg.com/originals/91/48/8f/91488fab4e065d4c2432730c6a99420b.jpg
 - title: '9bis, Metaphone, Fosse 9, Oignies'
@@ -9,7 +9,7 @@
   tags: 'mining,industrial,equipment'
   image: 'https://farm3.staticflickr.com/2636/3706659185_3bab309f46.jpg'
 - title: Blue Matrix Binary
-  tags: 'matrix,filter,blue'
+  tags: 'matrix,filters,blue'
   image: >-
     https://previews.123rf.com/images/taiga/taiga1503/taiga150300012/38237083-Blue-Matrix-Abstract-Zeros-and-Ones-Digital-background-Stock-Photo.jpg
 - title: Book Transforming
@@ -17,20 +17,17 @@
   image: >-
     https://s-media-cache-ak0.pinimg.com/736x/b2/3e/c8/b23ec8fad4face6ba9ea5151fc166fb2--the-interpretation-of-dreams-salvador-dali-art.jpg
 - title: Bridge
-  tags: ''
+  tags: bridge
   image: 'https://farm6.staticflickr.com/5270/5670290643_d586421e58.jpg'
 - title: Colourful containers
-  tags: ''
+  tags: 'shipping,containers'
   image: 'https://farm9.staticflickr.com/8729/28019853840_3d828a75d2.jpg'
 - title: Container
-  tags: ''
+  tags: 'shipping,containers'
   image: 'https://farm8.staticflickr.com/7308/10922010353_223a351faf.jpg'
 - title: Container ship
-  tags: ''
+  tags: 'shipping,containers'
   image: 'https://farm2.staticflickr.com/1257/1047673820_32957cf818.jpg'
-- title: Mule Machine
-  tags: 'mule,machine,manual,industrial'
-  image: 'https://farm1.staticflickr.com/173/402030693_8ed22e4658.jpg'
 - title: Delete Me
   tags: 'gauges,industrial,'
   image: 'https://farm8.staticflickr.com/7561/16123980839_a74a230990.jpg'
@@ -41,12 +38,6 @@
   tags: 'matrix,green,filters'
   image: >-
     https://img.yescdn.ru/2016/09/18/cover/1579770a7430547adab146dad6418949-the-matrix-1474219610.jpg
-- title: Servers
-  tags: 'servers,compute'
-  image: 'https://farm9.staticflickr.com/8523/8533890844_be97734f50.jpg'
-- title: Shipping Containers Under Bridge
-  tags: 'shipping,containers,bridge'
-  image: 'https://farm9.staticflickr.com/8680/16025528755_600268a43b.jpg'
 - title: Industrial
   tags: 'mining,mill,factory,industrial,buildings'
   image: 'https://farm2.staticflickr.com/1668/26222566386_1bee31cd64.jpg'
@@ -59,12 +50,21 @@
 - title: Mining Equipment
   tags: 'gears,equipment,industrial,manufacturing'
   image: 'https://farm5.staticflickr.com/4042/4485687240_cfd59cbdbb.jpg'
+- title: Mule Machine
+  tags: 'mule,machine,manual,industrial'
+  image: 'https://farm1.staticflickr.com/173/402030693_8ed22e4658.jpg'
 - title: Nighttime Paris traffic
   tags: 'cities,night,traffic'
   image: 'https://farm1.staticflickr.com/24/91892622_b35fcfeab2.jpg'
 - title: Peace bridge
   tags: bridge
   image: 'https://farm4.staticflickr.com/3846/14587361594_09bd1d915d.jpg'
+- title: Servers
+  tags: 'servers,compute'
+  image: 'https://farm9.staticflickr.com/8523/8533890844_be97734f50.jpg'
+- title: Shipping Containers Under Bridge
+  tags: 'shipping,containers,bridge'
+  image: 'https://farm9.staticflickr.com/8680/16025528755_600268a43b.jpg'
 - title: Stacking
   tags: 'shipping,containers'
   image: 'https://farm9.staticflickr.com/8111/28433959812_981beea3cc.jpg'
