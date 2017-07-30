@@ -24,15 +24,9 @@ title: API Evangelist - Transparency
 		{% for image in images %}
 			<div class="4u">
 				<span class="image fit">
-					<img src="{{ image.url }}" alt="" />
+					<img src="{{ image.medium }}" alt="" />
 					{{ image.title }}
 				</span>
-				{% if image.url contains "flickr.com" %}
-					{% assign segments = image.url | split: '/' %}
-					{% for segment in segments %}
-						segment: {{ segment }}<br />
-					{% endfor %}
-				{% endif %}
 			</div>
 		{% endfor %}
 	</div>
