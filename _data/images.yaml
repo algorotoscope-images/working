@@ -12,7 +12,7 @@
   image: 'https://farm3.staticflickr.com/2636/3706659185_3bab309f46.jpg'
   small: ''
   medium: ''
-- archive: archive
+- archive: ''
   title: Blue Matrix Binary
   tags: 'matrix,filters,blue'
   url: ''
@@ -20,7 +20,7 @@
     https://previews.123rf.com/images/taiga/taiga1503/taiga150300012/38237083-Blue-Matrix-Abstract-Zeros-and-Ones-Digital-background-Stock-Photo.jpg
   small: ''
   medium: ''
-- archive: archive
+- archive: ''
   title: Book Transforming
   tags: 'salvador dali,paintings,filters'
   url: ''
@@ -28,28 +28,28 @@
     https://s-media-cache-ak0.pinimg.com/736x/b2/3e/c8/b23ec8fad4face6ba9ea5151fc166fb2--the-interpretation-of-dreams-salvador-dali-art.jpg
   small: ''
   medium: ''
-- archive: archive
+- archive: ''
   title: Bridge
-  tags: 'bridge,walkway'
+  tags: bridge
   url: ''
   image: 'https://farm6.staticflickr.com/5270/5670290643_d586421e58.jpg'
   small: ''
   medium: ''
-- archive: archive
+- archive: ''
   title: Colourful containers
   tags: 'shipping,containers'
   url: ''
   image: 'https://farm9.staticflickr.com/8729/28019853840_3d828a75d2.jpg'
   small: ''
   medium: ''
-- archive: archive
+- archive: ''
   title: Container
   tags: 'shipping,containers'
   url: ''
   image: 'https://farm8.staticflickr.com/7308/10922010353_223a351faf.jpg'
   small: ''
   medium: ''
-- archive: archive
+- archive: ''
   title: Container ship
   tags: 'shipping,containers'
   url: ''
@@ -57,7 +57,7 @@
   small: ''
   medium: ''
 - archive: ''
-  title: Gauge
+  title: Delete Me
   tags: 'gauges,industrial,'
   url: ''
   image: 'https://farm8.staticflickr.com/7561/16123980839_a74a230990.jpg'
@@ -121,21 +121,21 @@
   image: 'https://farm1.staticflickr.com/173/402030693_8ed22e4658.jpg'
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: Nighttime Paris traffic
   tags: 'cities,night,traffic'
   url: ''
   image: 'https://farm1.staticflickr.com/24/91892622_b35fcfeab2.jpg'
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: Peace bridge
   tags: bridge
   url: ''
   image: 'https://farm4.staticflickr.com/3846/14587361594_09bd1d915d.jpg'
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: Servers
   tags: 'servers,compute'
   url: ''
