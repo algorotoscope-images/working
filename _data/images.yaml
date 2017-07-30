@@ -185,21 +185,21 @@
   image: 'https://farm6.staticflickr.com/5289/5233558496_dbe004a411.jpg'
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: industrial
   tags: 'industrial,factory'
   url: ''
   image: 'https://farm3.staticflickr.com/2919/33932040916_901e53c5e0.jpg'
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: labyrinthine circuit board lines
   tags: 'circuit,circuit board,filters'
   url: ''
   image: 'https://farm3.staticflickr.com/2093/2435823037_7853d39e69.jpg'
   small: ''
   medium: ''
-- archive: ''
+- archive: archive
   title: lewarde 2
   tags: 'industrial,gauges'
   url: ''
