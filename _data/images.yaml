@@ -347,15 +347,15 @@
   small: ''
   medium: ''
 - archive: ''
-  title: kandinsky_wassily_4.jpg
-  tags: ''
+  title: Wassily Kandinsky 4
+  tags: kandinsky
   url: 'http://www.theartstory.org/images20/works/kandinsky_wassily_4.jpg'
   image: 'http://www.theartstory.org/images20/works/kandinsky_wassily_4.jpg'
   small: ''
   medium: ''
 - archive: ''
-  title: kandinsky_wassily_8.jpg
-  tags: ''
+  title: Wassily Kandinsky 8
+  tags: 'kandinsky,dark'
   url: 'http://www.theartstory.org/images20/works/kandinsky_wassily_8.jpg'
   image: 'http://www.theartstory.org/images20/works/kandinsky_wassily_8.jpg'
   small: ''
@@ -375,8 +375,8 @@
   small: ''
   medium: ''
 - archive: ''
-  title: pablo
-  tags: ''
+  title: Pablo Picasso 1
+  tags: 'picasso,dark'
   url: >-
     https://phulme.files.wordpress.com/2009/04/pablo-picasso-painting-the-old-guitarist2.jpg
   image: >-
@@ -384,8 +384,8 @@
   small: ''
   medium: ''
 - archive: ''
-  title: tm.jpg
-  tags: ''
+  title: Pablo Picasso 2
+  tags: picasso
   url: 'http://ecmc.rochester.edu/rdm/graphics/tm.jpg'
   image: 'http://ecmc.rochester.edu/rdm/graphics/tm.jpg'
   small: ''
@@ -407,8 +407,8 @@
   small: ''
   medium: ''
 - archive: ''
-  title: vincent
-  tags: ''
+  title: Vincent Van Gogh The Starry Night
+  tags: 'van gogh, starry night'
   url: >-
     https://static1.squarespace.com/static/5422d6f9e4b0a493693d03c6/55196964e4b0f81fe4219515/5519696ce4b0f81fe421954f/1427728748506/vincent-van-gogh-starry-night-3077.jpg
   image: >-
