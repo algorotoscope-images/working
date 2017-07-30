@@ -25,6 +25,7 @@ title: Algorotoscope Working
 							<td><input type="text" name="tags" id="tags-{{ count }}" value="{{ image.tags }}" style="width:100%;" /></td>
 						</tr>
 					</table>
+					<input type="hidden" name="image" id="image-{{ count }}" value="{{ image.image }}" />
 				</span>
 			{% assign count = count | plus: 1 %}
 		{% endfor %}
@@ -42,7 +43,7 @@ title: Algorotoscope Working
 			var elements = document.getElementById("all-images").elements;
 			for (var i = 0, element; element = elements[i++];)
 				{
-		    if (element.type === "text")
+		    if (element.type === "text" || element.type === "hidden")
 					{
 					if(element.name == 'title')
 						{
@@ -53,7 +54,7 @@ title: Algorotoscope Working
 
 					$i[element.name] = element.value;
 
-					if(element.name == 'tags')
+					if(element.name == 'image')
 						{
 						$images.push($i);
 						}
