@@ -51,7 +51,7 @@ title: Algorotoscope Images Working
 <div class="box alt">
 	<div class="row 50% uniform">
 		{% for image in images %}
-			{% if image.archive == empty or image.archive == 0 or image.archive == ''or image.archive == blank %}
+
 				<div class="4u">
 					<span class="image fit">
 						<a href="{{ image.url }}" target="_blank">
@@ -89,7 +89,6 @@ title: Algorotoscope Images Working
 						</table>
 					</span>
 				</div>
-			{% endif %}
 			{% assign count = count | plus: 1 %}
 		{% endfor %}
 	</div>
