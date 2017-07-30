@@ -10,8 +10,10 @@ title: Algorotoscope Working
 		{% for image in images %}
 			<div class="4u">
 				<span class="image fit">
+					<a href="{{ image.url }}">
 					<img src="{{ image.image }}" alt="" />
 					{{ image.title }}
+				</a>
 				</span>
 			</div>
 		{% endfor %}
