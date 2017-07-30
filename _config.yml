@@ -1,8 +1,10 @@
-title:        API Transparency
-url:          http://design.apievangelist.com
-raw_url: http://design.apievangelist.com/apis/
+title:        Algorotoscope Images
+url:          http://working.images.rotoscope.work
 
-tag: Transparency
+raw_url: http://working.images.rotoscope.work
+/apis/
+
+tag: Algorotoscope Images
 
 logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-logo-transparency.png
 logo_width:   80
@@ -20,9 +22,9 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "
 paginate: 25
 paginate_path: "/blog/page:num"
 
-github_user: api-evangelist
-github_repo: design
-github_branch: gh-pages
+github_user: algorotoscope-images
+github_repo: working
+github_branch: master
 
 # Footer
 footer_title: API Evangelist
