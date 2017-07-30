@@ -51,43 +51,45 @@ title: Algorotoscope Images Working
 <div class="box alt">
 	<div class="row 50% uniform">
 		{% for image in images %}
-			<div class="4u">
-				<span class="image fit">
-					<a href="{{ image.url }}" target="_blank">
-						<img src="{{ image.image }}" alt="" height="250" />
-					</a>
-					<table>
-						<tr>
-							<td><strong>Archive:</strong></td>
-							<td><input type="checkbox" name="archive" id="archive-{{ count }}" value="{{ image.archive }}" style="width:100%;" /></td>
-						</tr>
-						<tr>
-							<td><strong>Title:</strong></td>
-							<td><input type="text" name="title" id="title-{{ count }}" value="{{ image.title }}" style="width:100%;" /></td>
-						</tr>
-						<tr>
-							<td onclick="showme('{{ count }}');"><strong>Tags:</strong></td>
-							<td><input type="text" name="tags" id="tags-{{ count }}" value="{{ image.tags }}" style="width:100%;" /></td>
-						</tr>
-						<tr id="url-row-{{ count }}" style="display: none;">
-							<td><strong>URL:</strong></td>
-							<td><input type="text" name="url" id="url-{{ count }}" value="{{ image.url }}" style="width:100%;" /></td>
-						</tr>
-						<tr id="image-row-{{ count }}" style="display: none;">
-							<td><strong>Image:</strong></td>
-							<td><input type="text" name="image" id="image-{{ count }}" value="{{ image.image }}" style="width:100%;" /></td>
-						</tr>
-						<tr id="small-row-{{ count }}" style="display: none;">
-							<td><strong>Small:</strong></td>
-							<td><input type="text" name="small" id="small-{{ count }}" value="{{ image.small }}" style="width:100%;" /></td>
-						</tr>
-						<tr id="medium-row-{{ count }}" style="display: none;">
-							<td><strong>Medium:</strong></td>
-							<td><input type="text" name="medium" id="medium-{{ count }}" value="{{ image.medium }}" style="width:100%;" /></td>
-						</tr>
-					</table>
-				</span>
-			</div>
+			{% if image.archive == '1' %}
+				<div class="4u">
+					<span class="image fit">
+						<a href="{{ image.url }}" target="_blank">
+							<img src="{{ image.image }}" alt="" height="250" />
+						</a>
+						<table>
+							<tr>
+								<td><strong>Archive:</strong></td>
+								<td><input type="checkbox" name="archive" id="archive-{{ count }}" value="1" style="width:100%;" /></td>
+							</tr>
+							<tr>
+								<td><strong>Title:</strong></td>
+								<td><input type="text" name="title" id="title-{{ count }}" value="{{ image.title }}" style="width:100%;" /></td>
+							</tr>
+							<tr>
+								<td onclick="showme('{{ count }}');"><strong>Tags:</strong></td>
+								<td><input type="text" name="tags" id="tags-{{ count }}" value="{{ image.tags }}" style="width:100%;" /></td>
+							</tr>
+							<tr id="url-row-{{ count }}" style="display: none;">
+								<td><strong>URL:</strong></td>
+								<td><input type="text" name="url" id="url-{{ count }}" value="{{ image.url }}" style="width:100%;" /></td>
+							</tr>
+							<tr id="image-row-{{ count }}" style="display: none;">
+								<td><strong>Image:</strong></td>
+								<td><input type="text" name="image" id="image-{{ count }}" value="{{ image.image }}" style="width:100%;" /></td>
+							</tr>
+							<tr id="small-row-{{ count }}" style="display: none;">
+								<td><strong>Small:</strong></td>
+								<td><input type="text" name="small" id="small-{{ count }}" value="{{ image.small }}" style="width:100%;" /></td>
+							</tr>
+							<tr id="medium-row-{{ count }}" style="display: none;">
+								<td><strong>Medium:</strong></td>
+								<td><input type="text" name="medium" id="medium-{{ count }}" value="{{ image.medium }}" style="width:100%;" /></td>
+							</tr>
+						</table>
+					</span>
+				</div>
+			{% endif %}
 			{% assign count = count | plus: 1 %}
 		{% endfor %}
 	</div>
