@@ -58,6 +58,10 @@ title: Algorotoscope Images Working
 					</a>
 					<table>
 						<tr>
+							<td><strong>Archive:</strong></td>
+							<td><input type="checkbox" name="archive" id="archive-{{ count }}" value="{{ image.archive }}" style="width:100%;" /></td>
+						</tr>
+						<tr>
 							<td><strong>Title:</strong></td>
 							<td><input type="text" name="title" id="title-{{ count }}" value="{{ image.title }}" style="width:100%;" /></td>
 						</tr>
@@ -115,9 +119,10 @@ title: Algorotoscope Images Working
 			var elements = document.getElementById("all-images").elements;
 			for (var i = 0, element; element = elements[i++];)
 				{
-		    if (element.type === "text" || element.type === "hidden")
+		    if (element.type === "text" || element.type === "hidden" || element.type === "checkbox")
 					{
-					if(element.name == 'title')
+
+					if(element.name == 'archive')
 						{
 						$i = {};
 						}
