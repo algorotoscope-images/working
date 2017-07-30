@@ -1,13 +1,13 @@
 - archive: ''
-  title: 25956696501_26a8de14e8_o.jpg
-  tags: ''
+  title: 'An Orchard in Spring by Claude Monet, 1886'
+  tags: 'monet,filters'
   url: 'http://farm2.staticflickr.com/1497/25956696501_26a8de14e8_o.jpg'
   image: 'http://farm2.staticflickr.com/1497/25956696501_26a8de14e8_o.jpg'
   small: ''
   medium: ''
 - archive: ''
-  title: 5cc546cf63685ab6280c55411421bf0d.jpg
-  tags: ''
+  title: Pablo Picasso 3
+  tags: 'picasso,filters'
   url: >-
     https://s-media-cache-ak0.pinimg.com/originals/5c/c5/46/5cc546cf63685ab6280c55411421bf0d.jpg
   image: >-
@@ -15,8 +15,8 @@
   small: ''
   medium: ''
 - archive: ''
-  title: '7'
-  tags: ''
+  title: Claud Monet 2
+  tags: 'monet,sunset,lake,boats'
   url: >-
     http://webneel.com/daily/sites/default/files/images/daily/12-2014/7-monet-paintings.preview.jpg
   image: >-
@@ -24,8 +24,8 @@
   small: ''
   medium: ''
 - archive: ''
-  title: 77135a10d5d12f9b085279143b73d144.jpg
-  tags: ''
+  title: Claude Monet Venice Twilight Painting
+  tags: 'monet,sunset,venice,painting,filters'
   url: >-
     https://s-media-cache-ak0.pinimg.com/originals/77/13/5a/77135a10d5d12f9b085279143b73d144.jpg
   image: >-
@@ -33,8 +33,8 @@
   small: ''
   medium: ''
 - archive: ''
-  title: 8f54ed819732badc8cd3e9fdba223d30.jpg
-  tags: ''
+  title: Molly Crabapple Guantamo Bay
+  tags: 'molly crabapple,guantanamo,barbed wire,prison,filters'
   url: >-
     https://d1qzzfctbfyh6r.cloudfront.net/content-images/contentimage/no-slug/8f54ed819732badc8cd3e9fdba223d30.jpg
   image: >-
@@ -42,8 +42,8 @@
   small: ''
   medium: ''
 - archive: ''
-  title: 98cab4f35d2084f969a8189e90b47dee.jpg
-  tags: ''
+  title: Pablo Picasso Portrai
+  tags: 'picasso,filters'
   url: >-
     https://s-media-cache-ak0.pinimg.com/originals/98/ca/b4/98cab4f35d2084f969a8189e90b47dee.jpg
   image: >-
@@ -65,8 +65,8 @@
   small: ''
   medium: ''
 - archive: ''
-  title: Alberto+Giacometti+Tutt'Art@
-  tags: ''
+  title: Alberto Giacometti 1
+  tags: 'giacommetti,filtes'
   url: >-
     http://4.bp.blogspot.com/-mXmrAN2dR40/VHNx_UqwilI/AAAAAAAEBHE/r8W1Wt9sB7A/s1600/Alberto%2BGiacometti%2BTutt%27Art%40-%2B(44).jpg
   image: >-
@@ -74,8 +74,8 @@
   small: ''
   medium: ''
 - archive: ''
-  title: Art
-  tags: ''
+  title: Emily Carr Forrest
+  tags: 'emily carr, forrest, stumps,logging,environment'
   url: >-
     https://www.aci-iac.ca/artbooks/content/art-books/26/contextual/large/Art-Canada-Institute-Emily-Carr-HR-Odds-and-Ends.jpg
   image: >-
@@ -124,6 +124,13 @@
   tags: 'shipping,containers'
   url: ''
   image: 'https://farm2.staticflickr.com/1257/1047673820_32957cf818.jpg'
+  small: ''
+  medium: ''
+- archive: ''
+  title: Declaration of Independence
+  tags: 'government,declaration of independence,documents'
+  url: 'http://cdn.history.com/sites/2/2014/01/declaration-of-independence.jpg'
+  image: 'http://cdn.history.com/sites/2/2014/01/declaration-of-independence.jpg'
   small: ''
   medium: ''
 - archive: archive
@@ -193,6 +200,15 @@
   image: 'https://farm5.staticflickr.com/4042/4485687240_cfd59cbdbb.jpg'
   small: ''
   medium: ''
+- archive: ''
+  title: Molly Crabapple - Hands Up Dont Shoot
+  tags: 'molly crabapple,racism,policing'
+  url: >-
+    https://8602-presscdn-0-85-pagely.netdna-ssl.com/wp-content/gallery/political/tumblr_nas53b33YV1qzocfyo1_1280.jpg
+  image: >-
+    https://8602-presscdn-0-85-pagely.netdna-ssl.com/wp-content/gallery/political/tumblr_nas53b33YV1qzocfyo1_1280.jpg
+  small: ''
+  medium: ''
 - archive: archive
   title: Mule Machine
   tags: 'mule,machine,manual,industrial'
@@ -258,6 +274,13 @@
     https://learnodo-newtonic.com/wp-content/uploads/2014/11/The-Potato-Eaters-1885-Vincent-Van-Gogh.jpg
   image: >-
     https://learnodo-newtonic.com/wp-content/uploads/2014/11/The-Potato-Eaters-1885-Vincent-Van-Gogh.jpg
+  small: ''
+  medium: ''
+- archive: ''
+  title: The Consitution
+  tags: 'government,constitution,documents'
+  url: 'http://www.activistpost.com/wp-content/uploads/2013/05/us-constitution1.jpg'
+  image: 'http://www.activistpost.com/wp-content/uploads/2013/05/us-constitution1.jpg'
   small: ''
   medium: ''
 - archive: ''
@@ -338,13 +361,6 @@
   small: ''
   medium: ''
 - archive: ''
-  title: Declaration of Independence
-  tags: 'government,declaration of independence,documents'
-  url: 'http://cdn.history.com/sites/2/2014/01/declaration-of-independence.jpg'
-  image: 'http://cdn.history.com/sites/2/2014/01/declaration-of-independence.jpg'
-  small: ''
-  medium: ''
-- archive: ''
   title: f21b9ca8
   tags: ''
   url: >-
@@ -381,21 +397,5 @@
   tags: 'industrial,gauges'
   url: ''
   image: 'https://farm4.staticflickr.com/3080/2781099786_2a8ae102d4.jpg'
-  small: ''
-  medium: ''
-- archive: ''
-  title: Molly Crabapple - Hands Up Dont Shoot
-  tags: 'molly crabapple,racism,policing'
-  url: >-
-    https://8602-presscdn-0-85-pagely.netdna-ssl.com/wp-content/gallery/political/tumblr_nas53b33YV1qzocfyo1_1280.jpg
-  image: >-
-    https://8602-presscdn-0-85-pagely.netdna-ssl.com/wp-content/gallery/political/tumblr_nas53b33YV1qzocfyo1_1280.jpg
-  small: ''
-  medium: ''
-- archive: ''
-  title: The Consitution
-  tags: 'government,constitution,documents'
-  url: 'http://www.activistpost.com/wp-content/uploads/2013/05/us-constitution1.jpg'
-  image: 'http://www.activistpost.com/wp-content/uploads/2013/05/us-constitution1.jpg'
   small: ''
   medium: ''
