@@ -8,7 +8,8 @@ title: Algorotoscope Working
 	<div class="row 50% uniform">
 		{% assign images = site.data.images | sort: 'title' %}
 		{% for image in images %}
-			<div class="4u" id="all-images">
+			<div class="4u">
+				<form id="all-images">
 				<span class="image fit">
 					<a href="{{ image.url }}" target="_blank">
 						<img src="{{ image.image }}" alt="" />
@@ -23,6 +24,7 @@ title: Algorotoscope Working
 							<td><input type="text" name="{{ image.image_id | slugify }}-tags" id="{{ image.image_id | slugify }}" value="{{ image.title }}" style="width:100%;" /></td>
 						</tr>
 					</table>
+				</form>
 				</span>
 			</div>
 		{% endfor %}
@@ -38,7 +40,7 @@ title: Algorotoscope Working
 			for (var i = 0, element; element = elements[i++];)
 				{
 				    if (element.type === "text" && element.value === "")
-				        console.log("it's an empty textfield")
+				        console.log(element.id);
 				}
 
 			}
@@ -47,6 +49,6 @@ title: Algorotoscope Working
 		<ul class="actions">
 			<li><a href="#" onclick="savethis(); return false;" class="button special">Default</a></li>
 		</ul>
-		</center>	
+		</center>
 	</div>
 </div>
