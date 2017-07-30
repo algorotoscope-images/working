@@ -1,0 +1,179 @@
+---
+layout: default
+title: Algorotoscope Images Working
+---
+
+{% assign count = 0 %}
+{% assign images = site.data.images | sort: 'title' %}
+<script type="text/javascript">
+	function showme($rowcount)
+		{
+
+		if(document.getElementById('url-row-'+$rowcount).style.display == 'none')
+			{
+			document.getElementById('url-row-'+$rowcount).style.display = ''
+			}
+		else
+			{
+			document.getElementById('url-row-'+$rowcount).style.display = 'none'
+			}
+
+		if(document.getElementById('image-row-'+$rowcount).style.display == 'none')
+			{
+			document.getElementById('image-row-'+$rowcount).style.display = ''
+			}
+		else
+			{
+			document.getElementById('image-row-'+$rowcount).style.display = 'none'
+			}
+
+		if(document.getElementById('small-row-'+$rowcount).style.display == 'none')
+			{
+			document.getElementById('small-row-'+$rowcount).style.display = ''
+			}
+		else
+			{
+			document.getElementById('small-row-'+$rowcount).style.display = 'none'
+			}
+
+		if(document.getElementById('medium-row-'+$rowcount).style.display == 'none')
+			{
+			document.getElementById('medium-row-'+$rowcount).style.display = ''
+			}
+		else
+			{
+			document.getElementById('medium-row-'+$rowcount).style.display = 'none'
+			}
+		}
+
+	function archive($count)
+		{
+		//console.log($count + " - archived!");
+		document.getElementById('archive-' + $count).value = 'archive';
+		}
+</script>
+<h4>Algorotoscope Images Working Areas - 1</h4>
+<form id="all-images" style="padding: 0px; margin: 0px; width: 100%;">
+<div class="box alt">
+	<div class="row 50% uniform">
+		{% for image in images %}
+				<div class="4u"{% if image.archive == 'archive' %} style="display: none"{% endif %}>
+					<span class="image fit">
+						<a href="{{ image.url }}" target="_blank">
+							<img src="{{ image.image }}" alt="" height="250" />
+						</a>
+						<table>
+							<tr>
+								<td onclick="archive('{{ count }}');"><strong>Archive:</strong></td>
+								<td><input type="text" name="archive" id="archive-{{ count }}" value="{{ image.archive }}" style="width:100%;" /></td>
+							</tr>
+							<tr>
+								<td><strong>Title:</strong></td>
+								<td><input type="text" name="title" id="title-{{ count }}" value="{{ image.title }}" style="width:100%;" /></td>
+							</tr>
+							<tr>
+								<td onclick="showme('{{ count }}');"><strong>Tags:</strong></td>
+								<td><input type="text" name="tags" id="tags-{{ count }}" value="{{ image.tags }}" style="width:100%;" /></td>
+							</tr>
+							<tr id="url-row-{{ count }}" style="display: none;">
+								<td><strong>URL:</strong></td>
+								<td><input type="text" name="url" id="url-{{ count }}" value="{{ image.url }}" style="width:100%;" /></td>
+							</tr>
+							<tr id="image-row-{{ count }}" style="display: none;">
+								<td><strong>Image:</strong></td>
+								<td><input type="text" name="image" id="image-{{ count }}" value="{{ image.image }}" style="width:100%;" /></td>
+							</tr>
+							<tr id="small-row-{{ count }}" style="display: none;">
+								<td><strong>Small:</strong></td>
+								<td><input type="text" name="small" id="small-{{ count }}" value="{{ image.small }}" style="width:100%;" /></td>
+							</tr>
+							<tr id="medium-row-{{ count }}" style="display: none;">
+								<td><strong>Medium:</strong></td>
+								<td><input type="text" name="medium" id="medium-{{ count }}" value="{{ image.medium }}" style="width:100%;" /></td>
+							</tr>
+						</table>
+					</span>
+				</div>
+			{% assign count = count | plus: 1 %}
+		{% endfor %}
+	</div>
+</div>
+</form>
+
+<div class="box alt">
+	<div class="row 50% uniform">
+
+		<script type="text/javascript">
+		function savethis()
+			{
+	    var $oAuthToken = getUrlVar('token');
+	    var $org = '{{ site.github_user }}';
+	    var $repo = '{{ site.github_repo }}';
+			var $branch = '{{ site.github_branch }}';
+
+			if($oAuthToken !='')
+	      {
+	      Cookies.set('token', $oAuthToken);
+	      // Set with expiration
+	      // Cookies.set('token', $oAuthToken, { expires: '01/01/2017' });
+	      }
+
+	    // Grab the token from cookie
+	    $oAuthToken = Cookies.get('token');
+
+			$images = new Array();
+			var elements = document.getElementById("all-images").elements;
+			for (var i = 0, element; element = elements[i++];)
+				{
+		    if (element.type === "text" || element.type === "hidden" || element.type === "checkbox")
+					{
+
+					if(element.name == 'archive')
+						{
+						$i = {};
+						}
+
+		      console.log(element.name);
+
+					$i[element.name] = element.value;
+
+					if(element.name == 'image')
+						{
+						$images.push($i);
+						}
+					}
+				}
+			//console.log($images);
+			$yaml_dump = jsyaml.dump($images);
+
+			//document.getElementById('source').value = $yaml_dump;
+
+			// Grab the token from cookie
+			$oAuthToken = Cookies.get('token');
+
+			var github = new Github({token: $oAuthToken,auth: "oauth"});
+			var repo = github.getRepo($org,$repo);
+
+			repo.getTree('{{ site.github_branch }}?recursive=true', function(err, tree) {
+
+				$.each(tree, function(treeKey, treeValue) {
+
+					$writepath = '_data/images.yaml';
+					//console.log($writepath);
+					$path = treeValue['path'];
+					$sha = treeValue['sha'];
+					//console.log($path + ' == ' + $writepath);
+					if($path==$writepath)
+						{
+						repo.writemanual('master',$writepath, $yaml_dump, 'Save', $sha, function(err) { });
+						//console.log("writing " + $writepath);
+						alert("saved " + $writepath);
+						}
+					});
+				});
+
+			}
+		</script>
+		<center><p align="center"><input type="button" onclick="savethis();" class="button" value="Save Images" style="text-align: center;" /></p></center>
+	</div>
+</div>
