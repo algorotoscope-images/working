@@ -6,7 +6,8 @@ title: Algorotoscope Images Working
 {% assign count = 0 %}
 {% assign images = site.data.images | sort: 'title' %}
 
-<h4>Algorotoscope Images Working Area - 1</h4>
+<h4>Algorotoscope Images Working Area</h4>
+<form id="all-images" style="padding: 0px; margin: 0px; width: 100%;">
 <div class="box alt">
 	<div class="row 50% uniform">
 		{% for image in images %}
@@ -15,7 +16,7 @@ title: Algorotoscope Images Working
 					<a href="{{ image.url }}" target="_blank">
 						<img src="{{ image.image }}" alt="" width="98%" />
 					</a>
-					<table>
+					<table style="padding: 0px; margin: 0px;">
 						<tr>
 							<td><strong>Title:</strong></td>
 							<td><input type="text" name="title" id="title-{{ count }}" value="{{ image.title }}" style="width:98%;" /></td>
@@ -32,6 +33,7 @@ title: Algorotoscope Images Working
 		{% endfor %}
 	</div>
 </div>
+</form>
 
 <div class="box alt">
 	<div class="row 50% uniform">
