@@ -23,6 +23,11 @@ title: API Evangelist - Transparency
 		{% assign images = site.data.images | sort: 'title' %}
 		{% for image in images %}
 			<div class="4u"><span class="image fit"><img src="{{ images.url }}" alt="" />{{ image.title }}</span></div>
+			{% assign elements = images.url | split: '/' %}
+			{% for element in elements %}
+				{{ element }}<br />
+			{% endfor %}
+
 		{% endfor %}
 	</div>
 </div>
