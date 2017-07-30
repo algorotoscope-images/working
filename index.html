@@ -51,7 +51,7 @@ title: Algorotoscope Images Working
 <div class="box alt">
 	<div class="row 50% uniform">
 		{% for image in images %}
-			{% if image.archive == '1' %}
+			{% if image.archive == empty or image.archive == 0 %}
 				<div class="4u">
 					<span class="image fit">
 						<a href="{{ image.url }}" target="_blank">
