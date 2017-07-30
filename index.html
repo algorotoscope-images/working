@@ -17,6 +17,16 @@ title: API Evangelist - Transparency
 	</span>
 </section>
 
+<h4>Images</h4>
+<div class="box alt">
+	<div class="row 50% uniform">
+		{% assign images = site.data.images | sort: 'title' %}
+		{% for image in images %}
+			<div class="4u"><span class="image fit"><img src="{{ images.url }}" alt="" />{{ image.title }}</span></div>
+		{% endfor %}
+	</div>
+</div>
+
 <!-- About This Research -->
 {% assign about_content = site.data.home_content.index[1] %}
 <a name="About"></a>
