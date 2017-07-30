@@ -9,8 +9,8 @@ title: Algorotoscope Working
 		{% assign count = 0 %}
 		{% assign images = site.data.images | sort: 'title' %}
 		<form id="all-images">
-		<div class="4u">
 		{% for image in images %}
+			<div class="4u">
 				<span class="image fit">
 					<a href="{{ image.url }}" target="_blank">
 						<img src="{{ image.image }}" alt="" />
@@ -27,9 +27,9 @@ title: Algorotoscope Working
 					</table>
 					<input type="hidden" name="image" id="image-{{ count }}" value="{{ image.image }}" />
 				</span>
+			</div>
 			{% assign count = count | plus: 1 %}
 		{% endfor %}
-		</div>
 		</form>
 	</div>
 </div>
