@@ -4,7 +4,7 @@
   url: ''
   image: 'https://farm5.staticflickr.com/4306/35201856153_61bc075e4b.jpg'
   small: ''
-  medium: 'data://kinlane/source512/f680f1601fb4448a5587284680303daa.jpg'
+  medium: ''
 - archive: archive
   title: Absaroka
   tags: 'mining,industrial,equipment,desert'
@@ -28,7 +28,7 @@
     https://s-media-cache-ak0.pinimg.com/736x/b0/a7/24/b0a724aa8a2654e2c50388fe855ec144--alberto-giacometti-giacometti-drawings.jpg
   image: >-
     https://s-media-cache-ak0.pinimg.com/736x/b0/a7/24/b0a724aa8a2654e2c50388fe855ec144--alberto-giacometti-giacometti-drawings.jpg
-  small: 'data://kinlane/source250/6930b89b3369e5c091f3c0e09ceae64f.jpg'
+  small: ''
   medium: ''
 - archive: archive
   title: Alberto Giacometti 3
@@ -37,14 +37,14 @@
     http://www.newsoftheartworld.com/wp-content/uploads/2015/10/giacometti-2-large.jpg
   image: >-
     http://www.newsoftheartworld.com/wp-content/uploads/2015/10/giacometti-2-large.jpg
-  small: ''
+  small: 'data://kinlane/source250/29921e1a3170bbfba5ee51c41d30467f.jpg'
   medium: ''
 - archive: archive
   title: 'An Orchard in Spring by Claude Monet, 1886'
   tags: 'monet,filters'
   url: 'http://farm2.staticflickr.com/1497/25956696501_26a8de14e8_o.jpg'
   image: 'http://farm2.staticflickr.com/1497/25956696501_26a8de14e8_o.jpg'
-  small: ''
+  small: 'data://kinlane/source250/118e9c0d1bd5cd6f74c11a76ed8319d6.jpg'
   medium: ''
 - archive: archive
   title: Blue Matrix Binary
@@ -60,7 +60,7 @@
   url: ''
   image: >-
     https://s-media-cache-ak0.pinimg.com/736x/b2/3e/c8/b23ec8fad4face6ba9ea5151fc166fb2--the-interpretation-of-dreams-salvador-dali-art.jpg
-  small: ''
+  small: 'data://kinlane/source250/3c899afbfcdcafe34b4607d8be1724cb.jpg'
   medium: ''
 - archive: archive
   title: Bridge
@@ -68,7 +68,7 @@
   url: ''
   image: 'https://farm6.staticflickr.com/5270/5670290643_d586421e58.jpg'
   small: ''
-  medium: ''
+  medium: 'data://kinlane/source512/885b924527762cc7f1491c42052a27f2.jpg'
 - archive: archive
   title: Capital
   tags: 'russian,propaganda,filters'
