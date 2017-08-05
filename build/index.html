@@ -10,6 +10,12 @@ title: Build
 </form>
 <div class="row 200%">
   <div class="6u 12u$(medium)">
+    <script type="text/javascript">
+      function filter($url)
+        {
+        document.getElementById('filter').value = $url;
+        }
+    </script>
     {% assign filtercount = 0 %}
     {% assign images = site.data.images | sort: 'title' %}
   	{% for image in images %}
@@ -17,7 +23,7 @@ title: Build
   			<div class="4u">
   				<span class="image fit">
   					<a href="{{ image.url }}" target="_blank">
-  						<img src="{{ image.image }}" alt="" height="250"onclick="document.getElementById('filter').value='{{ image.url }}';" />
+  						<img src="{{ image.image }}" alt="" height="250" onclick="filter('{{ image.image }}');" />
   					</a>
   				</span>
   			</div>
@@ -28,16 +34,19 @@ title: Build
 </div>
 <div class="row 200%">
   <div class="6u$ 12u$(medium)">
-    hey
+    <script type="text/javascript">
+      function apply($url)
+        {
+        document.getElementById('apply').value = $url;
+        }
+    </script>
     {% assign imagecount = 0 %}
     {% assign images = site.data.images | sort: 'title' %}
 		{% for image in images %}
       {% if image.tags contains 'filters' %}{% else %}
 				<div class="4u">
 					<span class="image fit">
-						<a href="{{ image.url }}" target="_blank">
-							<img src="{{ image.image }}" alt="" height="250" onclick="document.getElementById('apply').value='{{ image.url }}';" />
-						</a>
+						<img src="{{ image.image }}" alt="" height="250" onclick="apply('{{ image.image }}');" />
 					</span>
 				</div>
 			{% assign imagecount = imagecount | plus: 1 %}
