@@ -3,12 +3,8 @@ layout: page
 title: Build
 ---
 
-
-curl -X POST -d '{"source" : "[apply]","style" : "[filter]","output" : "[output]","iterations" :700,"style_layer_weight_exp" : 2,"content_weight_blend" : 1,"initial_image" : 0,"pooling" : "max","preserve_colors" : 0,"style_weight" : 300,"content_weight" : 5,"tv_weight" : 100,"learning_rate" : 10,"log_channel" : "","log_interval" : 25}' -H 'Content-Type: application/json' -H 'Authorization:
-Simple [api_key]' https://api.algorithmia.com/v1/algo/bkyan/StyleThief/0.2.13 -timeout 10000
-
 <script type="text/javascript">
-  function build()
+  function buildcommand()
     {
     $a = document.getElementById('apply').value;
     $f = document.getElementById('filter').value;
@@ -52,7 +48,7 @@ Simple [api_key]' https://api.algorithmia.com/v1/algo/bkyan/StyleThief/0.2.13 -t
     <td><input type="text" name="output" id="apply" value=""></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><input type="button" name="build" id="build" value="Build" onclick="build();"></td>
+    <td colspan="2" align="center"><input type="button" onclick="buildcommand()" name="build" id="build" value="Build"></td>
   </tr>
   <tr>
     <td><strong>Command:</strong></td>
