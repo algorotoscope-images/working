@@ -74,11 +74,9 @@ title: Build
   	{% for image in images %}
       {% if image.tags contains 'filters' %}
   			<div class="4u">
-  				<span class="image fit">
             <a href="#" onclick="filter('{{ image.small }}'); return false;">
   					<img src="{{ image.image }}" alt="" style="width: 400px;" />
             </a>
-  				</span>
   			</div>
   		{% assign filtercount = filtercount | plus: 1 %}
       {% endif %}
