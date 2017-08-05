@@ -16,9 +16,9 @@ title: Build
   					<a href="{{ image.url }}" target="_blank">
   						<img src="{{ image.image }}" alt="" height="250" />
   					</a>
-            <input type="checkbox" name="select-{{ filtercount }}" value="1" />
   				</span>
   			</div>
+        <input type="button" name="select" value="Select" />
   		{% assign filtercount = filtercount | plus: 1 %}
       {% endif %}
   	{% endfor %}
@@ -37,6 +37,7 @@ title: Build
 						</a>
 					</span>
 				</div>
+        <input type="button" name="Appy" value="Appy" />
 			{% assign imagecount = imagecount | plus: 1 %}
       {% endif %}
 		{% endfor %}
