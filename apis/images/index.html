@@ -1,0 +1,4 @@
+---
+layout: none
+---
+{% assign publish_json = site.data.images | json | replace: '=>', ':' %}{{ publish_json }}
