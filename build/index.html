@@ -17,11 +17,10 @@ title: Build
   			<div class="4u">
   				<span class="image fit">
   					<a href="{{ image.url }}" target="_blank">
-  						<img src="{{ image.image }}" alt="" height="250" />
+  						<img src="{{ image.image }}" alt="" height="250"onclick="document.getElementById('filter').value='{{ image.url }}';" />
   					</a>
   				</span>
   			</div>
-        <input type="button" onclick="document.getElementById('filter').value='{{ image.url }}';" name="select" value="Select" />
   		{% assign filtercount = filtercount | plus: 1 %}
       {% endif %}
   	{% endfor %}
@@ -29,6 +28,7 @@ title: Build
 </div>
 <div class="row 200%">
   <div class="6u$ 12u$(medium)">
+    hey
     {% assign imagecount = 0 %}
     {% assign images = site.data.images | sort: 'title' %}
 		{% for image in images %}
@@ -36,11 +36,10 @@ title: Build
 				<div class="4u">
 					<span class="image fit">
 						<a href="{{ image.url }}" target="_blank">
-							<img src="{{ image.image }}" alt="" height="250" />
+							<img src="{{ image.image }}" alt="" height="250" onclick="document.getElementById('apply').value='{{ image.url }}';" />
 						</a>
 					</span>
 				</div>
-        <input type="button" onclick="document.getElementById('apply').value='{{ image.url }}';" name="Appy" value="Appy" />
 			{% assign imagecount = imagecount | plus: 1 %}
       {% endif %}
 		{% endfor %}
