@@ -14,7 +14,7 @@ title: Build
           {% assign images = site.data.images | sort: 'title' %}
       		{% for image in images %}
             {% if image.tags contains 'filters' %}
-      				<div class="4u"{% if image.archive != 'archive' %} style="display: none"{% endif %}>
+      				<div class="4u">
       					<span class="image fit">
       						<a href="{{ image.url }}" target="_blank">
       							<img src="{{ image.image }}" alt="" height="250" />
@@ -30,7 +30,7 @@ title: Build
           {% assign images = site.data.images | sort: 'title' %}
       		{% for image in images %}
             {% if image.tags contains 'filters' %}{% else %}
-      				<div class="4u"{% if image.archive != 'archive' %} style="display: none"{% endif %}>
+      				<div class="4u">
       					<span class="image fit">
       						<a href="{{ image.url }}" target="_blank">
       							<img src="{{ image.image }}" alt="" height="250" />
