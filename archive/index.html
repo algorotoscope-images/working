@@ -51,6 +51,32 @@ title: Algorotoscope Images Working - Archive
 		//console.log($count + " - archived!");
 		document.getElementById('archive-' + $count).value = 'archive';
 		}
+
+	function makesmall($count)
+		{
+		$image_url = document.getElementById('image-' + $count).src;
+
+		$api_url = "http://api.rotoscope.work/image/algorithmia/image/resize/?image=" + $image_url;
+
+		console.log("loading..." + $api_url);
+
+		$.ajax({
+		  url: $api_url,
+		  type:"GET",
+		  success:function(data) {
+					console.log(data);
+	      	//$properties = data['properties'];
+	    	}
+		});
+
+		}
+	function makemed($count)
+		{
+		$image = document.getElementById('image-' + $count).src;
+
+
+
+		}
 </script>
 <h4>Algorotoscope Images Working Areas - Archive</h4>
 <form id="all-images" style="padding: 0px; margin: 0px; width: 100%;">
@@ -84,7 +110,7 @@ title: Algorotoscope Images Working - Archive
 								<td><input type="text" name="image" id="image-{{ count }}" value="{{ image.image }}" style="width:100%;" /></td>
 							</tr>
 							<tr id="small-row-{{ count }}" style="display: none;">
-								<td><strong>Small:</strong></td>
+								<td><a href="#" onclick="makesmall('{{ count }}');"><strong>Small:</strong></a></td>
 								<td><input type="text" name="small" id="small-{{ count }}" value="{{ image.small }}" style="width:100%;" /></td>
 							</tr>
 							<tr id="medium-row-{{ count }}" style="display: none;">
