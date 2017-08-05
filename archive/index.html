@@ -55,7 +55,7 @@ title: Algorotoscope Images Working - Archive
 	function makesmall($count)
 		{
 		$image_url = document.getElementById('image-' + $count).value;
-		$api_url = "http://api.rotoscope.work/image/algorithmia/image/resize/?image=" + $image_url;
+		$api_url = "http://api.rotoscope.work/image/algorithmia/image/resize/small/?image=" + $image_url;
 
 		//console.log("loading..." + $api_url);
 
@@ -65,6 +65,7 @@ title: Algorotoscope Images Working - Archive
 		  success:function(data) {
 	      	$result = data['response']['result'];
 					console.log($result);
+					document.getElementById('small-' + $count).value = $result;
 	    	}
 		});
 
