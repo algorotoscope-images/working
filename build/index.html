@@ -19,6 +19,7 @@ title: Build
       						<a href="{{ image.url }}" target="_blank">
       							<img src="{{ image.image }}" alt="" height="250" />
       						</a>
+                  <input type="checkbox" name=""
       					</span>
       				</div>
       			{% assign filtercount = filtercount | plus: 1 %}
@@ -26,7 +27,7 @@ title: Build
       		{% endfor %}
         </td>
         <td width="50%" valign="top">
-          {% assign filtercount = 0 %}
+          {% assign imagecount = 0 %}
           {% assign images = site.data.images | sort: 'title' %}
       		{% for image in images %}
             {% if image.tags contains 'filters' %}{% else %}
@@ -37,7 +38,7 @@ title: Build
       						</a>
       					</span>
       				</div>
-      			{% assign filtercount = filtercount | plus: 1 %}
+      			{% assign imagecount = imagecount | plus: 1 %}
             {% endif %}
       		{% endfor %}
         </td>
