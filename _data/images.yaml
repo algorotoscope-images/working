@@ -4,7 +4,7 @@
   url: ''
   image: 'https://farm5.staticflickr.com/4306/35201856153_61bc075e4b.jpg'
   small: ''
-  medium: ''
+  medium: 'data://kinlane/source512/f680f1601fb4448a5587284680303daa.jpg'
 - archive: archive
   title: Absaroka
   tags: 'mining,industrial,equipment,desert'
@@ -28,7 +28,7 @@
     https://s-media-cache-ak0.pinimg.com/736x/b0/a7/24/b0a724aa8a2654e2c50388fe855ec144--alberto-giacometti-giacometti-drawings.jpg
   image: >-
     https://s-media-cache-ak0.pinimg.com/736x/b0/a7/24/b0a724aa8a2654e2c50388fe855ec144--alberto-giacometti-giacometti-drawings.jpg
-  small: ''
+  small: 'data://kinlane/source250/6930b89b3369e5c091f3c0e09ceae64f.jpg'
   medium: ''
 - archive: archive
   title: Alberto Giacometti 3
@@ -52,7 +52,7 @@
   url: ''
   image: >-
     https://previews.123rf.com/images/taiga/taiga1503/taiga150300012/38237083-Blue-Matrix-Abstract-Zeros-and-Ones-Digital-background-Stock-Photo.jpg
-  small: ''
+  small: 'data://kinlane/source250/23072cefe3f96daca8cc734a77be1808.jpg'
   medium: ''
 - archive: archive
   title: Book Transforming
