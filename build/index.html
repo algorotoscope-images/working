@@ -3,6 +3,39 @@ layout: page
 title: Build
 ---
 
+
+curl -X POST -d '{"source" : "[apply]","style" : "[filter]","output" : "[output]","iterations" :700,"style_layer_weight_exp" : 2,"content_weight_blend" : 1,"initial_image" : 0,"pooling" : "max","preserve_colors" : 0,"style_weight" : 300,"content_weight" : 5,"tv_weight" : 100,"learning_rate" : 10,"log_channel" : "","log_interval" : 25}' -H 'Content-Type: application/json' -H 'Authorization:
+Simple [api_key]' https://api.algorithmia.com/v1/algo/bkyan/StyleThief/0.2.13 -timeout 10000
+
+<script type="text/javascript">
+  function build()
+    {
+    $a = document.getElementById('apply').value;
+    $f = document.getElementById('filter').value;
+    $o = document.getElementById('output').value;
+    $c = "curl -X POST -d '";
+    $c = $c + '{"source" : "' + $a + '",';
+    $c = $c + '"style" : "' + $f + '",';
+    $c = $c + '"output" : "' + $o + '",';
+    $c = $c + '"iterations" :700,';
+    $c = $c + '"style_layer_weight_exp" : 2,';
+    $c = $c + '"content_weight_blend" : 1,';
+    $c = $c + '"initial_image" : 0,';
+    $c = $c + '"pooling" : "max",';
+    $c = $c + '"preserve_colors" : 0,';
+    $c = $c + '"style_weight" : 300,';
+    $c = $c + '"content_weight" : 5,';
+    $c = $c + '"tv_weight" : 100,';
+    $c = $c + '"learning_rate" : 10,';
+    $c = $c + '"log_channel" : "",';
+    $c = $c + '"log_interval" : 25';
+    $c = $c + "}' -H 'Content-Type: application/json'";
+    $c = $c + " -H 'Authorization: Simple [api_key]'";
+    $c = $c + " https://api.algorithmia.com/v1/algo/bkyan/StyleThief/0.2.13 -timeout 10000";
+    document.getElementById('command').value = $c;
+    }
+</script>
+
 <h2>Build</h2>
 <form id="all-images">
 <table>
@@ -17,6 +50,13 @@ title: Build
   <tr>
     <td><strong>Output:</strong></td>
     <td><input type="text" name="output" id="apply" value=""></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><input type="button" name="build" id="build" value="Build" onclick="build();"></td>
+  </tr>
+  <tr>
+    <td><strong>Command:</strong></td>
+    <td><textarea style="width: 100%; height: 50px;" name="command" id="command"></textarea></td>
   </tr>
 </table>
 </form>
