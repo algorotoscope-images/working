@@ -6,6 +6,7 @@ title: Build
 <script type="text/javascript">
   function buildcommand()
     {
+    $k = document.getElementById('key').value;
     $a = document.getElementById('apply').value;
     $f = document.getElementById('filter').value;
     $o = document.getElementById('output').value;
@@ -26,7 +27,7 @@ title: Build
     $c = $c + '"log_channel" : "",';
     $c = $c + '"log_interval" : 25';
     $c = $c + "}' -H 'Content-Type: application/json'";
-    $c = $c + " -H 'Authorization: Simple [api_key]'";
+    $c = $c + " -H 'Authorization: Simple " + $k + "'";
     $c = $c + " https://api.algorithmia.com/v1/algo/bkyan/StyleThief/0.2.13 -timeout 10000";
     document.getElementById('command').value = $c;
     }
@@ -35,6 +36,10 @@ title: Build
 <h2>Build</h2>
 <form id="all-images">
 <table>
+  <tr>
+    <td><strong>Key:</strong></td>
+    <td><input type="text" name="key" id="key" value=""></td>
+  </tr>
   <tr>
     <td><strong>Filter:</strong></td>
     <td><input type="text" name="filter" id="filter" value=""></td>
