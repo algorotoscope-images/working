@@ -22,9 +22,7 @@ title: Build
       {% if image.tags contains 'filters' %}
   			<div class="4u">
   				<span class="image fit">
-  					<a href="{{ image.url }}" target="_blank">
-  						<img src="{{ image.image }}" alt="" height="250" onclick="filter('{{ image.image }}');" />
-  					</a>
+  					<img src="{{ image.image }}" alt="" height="250" onclick="filter('{{ image.image }}');" />
   				</span>
   			</div>
   		{% assign filtercount = filtercount | plus: 1 %}
