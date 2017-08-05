@@ -112,19 +112,19 @@ title: Algorotoscope Images Working - Archive
 								<td onclick="showme('{{ count }}');"><strong>Tags:</strong></td>
 								<td><input type="text" name="tags" id="tags-{{ count }}" value="{{ image.tags }}" style="width:100%;" /></td>
 							</tr>
-							<tr id="url-row-{{ count }}" style="display: none;">
+							<tr id="url-row-{{ count }}">
 								<td><strong>URL:</strong></td>
 								<td><input type="text" name="url" id="url-{{ count }}" value="{{ image.url }}" style="width:100%;" /></td>
 							</tr>
-							<tr id="image-row-{{ count }}" style="display: none;">
+							<tr id="image-row-{{ count }}">
 								<td><strong>Image:</strong></td>
 								<td><input type="text" name="image" id="image-{{ count }}" value="{{ image.image }}" style="width:100%;" /></td>
 							</tr>
-							<tr id="small-row-{{ count }}" style="display: none;">
+							<tr id="small-row-{{ count }}" style="cursor: finger;">
 								<td onclick="makesmall('{{ count }}'); "><strong>Small:</strong></td>
 								<td><input type="text" name="small" id="small-{{ count }}" value="{{ image.small }}" style="width:100%;" /></td>
 							</tr>
-							<tr id="medium-row-{{ count }}" style="display: none;">
+							<tr id="medium-row-{{ count }}" style="cursor: finger;">
 								<td onclick="makemed('{{ count }}');"><strong>Medium:</strong></td>
 								<td><input type="text" name="medium" id="medium-{{ count }}" value="{{ image.medium }}" style="width:100%;" /></td>
 							</tr>
