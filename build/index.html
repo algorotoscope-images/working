@@ -4,7 +4,10 @@ title: Build
 ---
 
 <h2>Build</h2>
-<form id="all-images" style="padding: 0px; margin: 0px; width: 100%;">
+<form id="all-images">
+<strong>Filter:</strong> <input type="text" name="filter" id="filter" value="">
+<strong>Apply:</strong> <input type="text" name="apply" id="apply" value="">
+</form>
 <div class="row 200%">
   <div class="6u 12u$(medium)">
     {% assign filtercount = 0 %}
@@ -18,7 +21,7 @@ title: Build
   					</a>
   				</span>
   			</div>
-        <input type="button" name="select" value="Select" />
+        <input type="button" onclick="document.getElementById('filter').value='{{ image.url }}';" name="select" value="Select" />
   		{% assign filtercount = filtercount | plus: 1 %}
       {% endif %}
   	{% endfor %}
@@ -37,10 +40,9 @@ title: Build
 						</a>
 					</span>
 				</div>
-        <input type="button" name="Appy" value="Appy" />
+        <input type="button" onclick="document.getElementById('apply').value='{{ image.url }}';" name="Appy" value="Appy" />
 			{% assign imagecount = imagecount | plus: 1 %}
       {% endif %}
 		{% endfor %}
 	</div>
 </div>
-</form>
