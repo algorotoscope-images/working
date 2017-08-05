@@ -34,7 +34,7 @@ title: Build
       {% if image.tags contains 'filters' %}
   			<div class="4u">
   				<span class="image fit">
-  					<img src="{{ image.image }}" alt="" height="250" onclick="filter('{{ image.image }}');" />
+  					<img src="{{ image.image }}" alt="" height="250" onclick="filter('{{ image.medium }}');" />
   				</span>
   			</div>
   		{% assign filtercount = filtercount | plus: 1 %}
@@ -54,7 +54,7 @@ title: Build
       {% if image.tags contains 'filters' %}{% else %}
 				<div class="4u">
 					<span class="image fit">
-						<img src="{{ image.image }}" alt="" height="250" onclick="apply('{{ image.image }}');" />
+						<img src="{{ image.image }}" alt="" height="250" onclick="apply('{{ image.small }}');" />
 					</span>
 				</div>
 			{% assign imagecount = imagecount | plus: 1 %}
