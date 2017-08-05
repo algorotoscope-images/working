@@ -63,7 +63,7 @@ title: Algorotoscope Images Working - Archive
 		  url: $api_url,
 		  type:"GET",
 		  success:function(data) {
-	      	$result = data['response']['result'];
+	      	$result = data['result'];
 					console.log($result);
 					document.getElementById('small-' + $count).value = $result;
 	    	}
