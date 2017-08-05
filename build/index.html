@@ -19,7 +19,7 @@ title: Build
       						<a href="{{ image.url }}" target="_blank">
       							<img src="{{ image.image }}" alt="" height="250" />
       						</a>
-                  <input type="checkbox" name=""
+                  <input type="checkbox" name="select-{{ filtercount }}" value="1" />
       					</span>
       				</div>
       			{% assign filtercount = filtercount | plus: 1 %}
