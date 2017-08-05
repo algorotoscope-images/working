@@ -72,9 +72,20 @@ title: Algorotoscope Images Working - Archive
 		}
 	function makemed($count)
 		{
-		$image = document.getElementById('image-' + $count).src;
+			$image_url = document.getElementById('image-' + $count).value;
+			$api_url = "http://api.rotoscope.work/image/algorithmia/image/resize/medium/?image=" + $image_url;
 
+			//console.log("loading..." + $api_url);
 
+			$.ajax({
+			  url: $api_url,
+			  type:"GET",
+			  success:function(data) {
+		      	$result = data['result'];
+						console.log($result);
+						document.getElementById('medium-' + $count).value = $result;
+		    	}
+			});
 
 		}
 </script>
