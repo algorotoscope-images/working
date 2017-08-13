@@ -1,42 +1,8 @@
-- archive: 'archive'
-  title: Charlottesville Torches
-  tags: ''
-  url: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/training/nazi/charlottesville-torches.jpg'
-  image: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/training/nazi/charlottesville-torches.jpg'
-  small: ''
-  medium: ''
 - archive: ''
   title: 21594252148_b953ea1bed_b.jpg
   tags: ''
   url: 'https://farm1.staticflickr.com/721/21594252148_b953ea1bed_b.jpg'
   image: 'https://farm1.staticflickr.com/721/21594252148_b953ea1bed_b.jpg'
-  small: ''
-  medium: ''
-- archive: archive
-  title: Hitler Youth
-  tags: 'nazi, filters'
-  url: >-
-    http://www.master-of-education.org/wp-content/uploads/2012/12/4-The-German-Student-Fights-for-the-Fuhrer-and-the-People.jpg
-  image: >-
-    http://www.master-of-education.org/wp-content/uploads/2012/12/4-The-German-Student-Fights-for-the-Fuhrer-and-the-People.jpg
-  small: ''
-  medium: ''
-- archive: archive
-  title: Hitler Youth
-  tags: 'nazi, filters'
-  url: >-
-    https://s-media-cache-ak0.pinimg.com/736x/4d/e9/d3/4de9d31f466f14c86268abcff43a78bd--hitler-youth-nazi-propaganda.jpg
-  image: >-
-    https://s-media-cache-ak0.pinimg.com/736x/4d/e9/d3/4de9d31f466f14c86268abcff43a78bd--hitler-youth-nazi-propaganda.jpg
-  small: ''
-  medium: ''
-- archive: archive
-  title: Nazi
-  tags: 'nazi, filters'
-  url: >-
-    https://s-media-cache-ak0.pinimg.com/236x/92/df/6b/92df6bb80949b7603db647ea144f61c0--nazi-propaganda-ww-posters.jpg
-  image: >-
-    https://s-media-cache-ak0.pinimg.com/236x/92/df/6b/92df6bb80949b7603db647ea144f61c0--nazi-propaganda-ww-posters.jpg
   small: ''
   medium: ''
 - archive: archive
@@ -189,6 +155,15 @@
   image: 'https://farm5.staticflickr.com/4346/36397287955_218749d160.jpg'
   small: 'https://farm5.staticflickr.com/4346/36397287955_218749d160_m.jpg'
   medium: 'https://farm5.staticflickr.com/4346/36397287955_218749d160.jpg'
+- archive: ''
+  title: Charlottesville Torches
+  tags: ''
+  url: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/training/nazi/charlottesville-torches.jpg
+  image: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/training/nazi/charlottesville-torches.jpg
+  small: ''
+  medium: ''
 - archive: archive
   title: Christ on Wall
   tags: 'christ, wall, church'
@@ -385,6 +360,24 @@
   small: 'data://kinlane/source250/24a8f75f3393207b4f2bab086493e445.jpg'
   medium: ''
 - archive: archive
+  title: Hitler Youth
+  tags: 'nazi, filters'
+  url: >-
+    http://www.master-of-education.org/wp-content/uploads/2012/12/4-The-German-Student-Fights-for-the-Fuhrer-and-the-People.jpg
+  image: >-
+    http://www.master-of-education.org/wp-content/uploads/2012/12/4-The-German-Student-Fights-for-the-Fuhrer-and-the-People.jpg
+  small: 'data://kinlane/source250/695f185471f5444a9aa8b333c3c83742.jpg'
+  medium: ''
+- archive: archive
+  title: Hitler Youth
+  tags: 'nazi, filters'
+  url: >-
+    https://s-media-cache-ak0.pinimg.com/736x/4d/e9/d3/4de9d31f466f14c86268abcff43a78bd--hitler-youth-nazi-propaganda.jpg
+  image: >-
+    https://s-media-cache-ak0.pinimg.com/736x/4d/e9/d3/4de9d31f466f14c86268abcff43a78bd--hitler-youth-nazi-propaganda.jpg
+  small: 'data://kinlane/source250/cd15084219cdbe9dde3e6ed278b7ce22.jpg'
+  medium: ''
+- archive: archive
   title: Industrial
   tags: 'mining,mill,factory,industrial,buildings'
   url: ''
@@ -552,8 +545,35 @@
   tags: 'mule,machine,manual,industrial'
   url: ''
   image: 'https://farm1.staticflickr.com/173/402030693_8ed22e4658.jpg'
-  small: ''
+  small: 'data://kinlane/source250/0cba3def66581052fe047c11e24f6356.jpg'
   medium: 'data://kinlane/source512/0cba3def66581052fe047c11e24f6356.jpg'
+- archive: archive
+  title: Nazi
+  tags: 'nazi, filters'
+  url: >-
+    https://s-media-cache-ak0.pinimg.com/236x/92/df/6b/92df6bb80949b7603db647ea144f61c0--nazi-propaganda-ww-posters.jpg
+  image: >-
+    https://s-media-cache-ak0.pinimg.com/236x/92/df/6b/92df6bb80949b7603db647ea144f61c0--nazi-propaganda-ww-posters.jpg
+  small: 'data://kinlane/source250/44280e75ac6858cf395fd6df0b4580c3.jpg'
+  medium: 'data://kinlane/source512/44280e75ac6858cf395fd6df0b4580c3.jpg'
+- archive: archive
+  title: Nazi Propagana
+  tags: 'nazi, filters'
+  url: >-
+    https://s-media-cache-ak0.pinimg.com/736x/c8/17/d6/c817d6823079ba37c4c9782dcc77a8ee--nazi-propaganda-movie-posters.jpg
+  image: >-
+    https://s-media-cache-ak0.pinimg.com/736x/c8/17/d6/c817d6823079ba37c4c9782dcc77a8ee--nazi-propaganda-movie-posters.jpg
+  small: 'data://kinlane/source250/a6579793ef02911ad23c42dfe59ef335.jpg'
+  medium: 'data://kinlane/source512/a6579793ef02911ad23c42dfe59ef335.jpg'
+- archive: archive
+  title: Nazi Propagana
+  tags: 'nazi, filters'
+  url: >-
+    https://s-media-cache-ak0.pinimg.com/236x/d7/7d/84/d77d84a2e053a43cbbaac8fa4fb7f8a4--historic-posters-nazi-propaganda.jpg
+  image: >-
+    https://s-media-cache-ak0.pinimg.com/236x/d7/7d/84/d77d84a2e053a43cbbaac8fa4fb7f8a4--historic-posters-nazi-propaganda.jpg
+  small: 'data://kinlane/source250/3025a56f1cd83a5e3d23d4f7498ed2c3.jpg'
+  medium: 'data://kinlane/source512/3025a56f1cd83a5e3d23d4f7498ed2c3.jpg'
 - archive: archive
   title: New York City Down The Line
   tags: 'new york city, cars, transit'
@@ -856,24 +876,6 @@
   image: 'https://farm5.staticflickr.com/4390/36397284165_6a34055e8a.jpg'
   small: 'https://farm5.staticflickr.com/4390/36397284165_6a34055e8a_m.jpg'
   medium: 'https://farm5.staticflickr.com/4390/36397284165_6a34055e8a.jpg'
-- archive: archive
-  title: Nazi Propagana
-  tags: 'nazi, filters'
-  url: >-
-    https://s-media-cache-ak0.pinimg.com/736x/c8/17/d6/c817d6823079ba37c4c9782dcc77a8ee--nazi-propaganda-movie-posters.jpg
-  image: >-
-    https://s-media-cache-ak0.pinimg.com/736x/c8/17/d6/c817d6823079ba37c4c9782dcc77a8ee--nazi-propaganda-movie-posters.jpg
-  small: ''
-  medium: ''
-- archive: archive
-  title: Nazi Propagana
-  tags: 'nazi, filters'
-  url: >-
-    https://s-media-cache-ak0.pinimg.com/236x/d7/7d/84/d77d84a2e053a43cbbaac8fa4fb7f8a4--historic-posters-nazi-propaganda.jpg
-  image: >-
-    https://s-media-cache-ak0.pinimg.com/236x/d7/7d/84/d77d84a2e053a43cbbaac8fa4fb7f8a4--historic-posters-nazi-propaganda.jpg
-  small: ''
-  medium: ''
 - archive: archive
   title: industrial
   tags: 'industrial,factory'
