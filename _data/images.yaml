@@ -156,15 +156,6 @@
   small: 'https://farm5.staticflickr.com/4346/36397287955_218749d160_m.jpg'
   medium: 'https://farm5.staticflickr.com/4346/36397287955_218749d160.jpg'
 - archive: archive
-  title: Charlottesville Torches
-  tags: nazis
-  url: >-
-    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/training/nazi/charlottesville-torches.jpg
-  image: >-
-    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/training/nazi/charlottesville-torches.jpg
-  small: ''
-  medium: 'data://kinlane/source512/4dfde07b1891f317ffc4547a6063481e.jpg'
-- archive: archive
   title: Christ on Wall
   tags: 'christ, wall, church'
   url: >-
