@@ -155,9 +155,9 @@
   image: 'https://farm5.staticflickr.com/4346/36397287955_218749d160.jpg'
   small: 'https://farm5.staticflickr.com/4346/36397287955_218749d160_m.jpg'
   medium: 'https://farm5.staticflickr.com/4346/36397287955_218749d160.jpg'
-- archive: ''
+- archive: achive
   title: Charlottesville Torches
-  tags: ''
+  tags: nazis
   url: >-
     https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/training/nazi/charlottesville-torches.jpg
   image: >-
