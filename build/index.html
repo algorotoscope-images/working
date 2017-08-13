@@ -10,17 +10,25 @@ title: Build
     $a = document.getElementById('apply').value;
     $f = document.getElementById('filter').value;
     $o = document.getElementById('output').value;
+
+    $style_layer_weight_exp = document.getElementById('style_layer_weight_exp').value;
+    $content_weight_blend = document.getElementById('content_weight_blend').value;
+    $initial_image = document.getElementById('initial_image').value;
+    $pooling = document.getElementById('pooling').value;
+    $preserve_colors = document.getElementById('preserve_colors').value;
+    $style_weight = document.getElementById('style_weight').value;
+
     $c = "curl -X POST -d '";
     $c = $c + '{"source" : "' + $a + '",';
     $c = $c + '"style" : "' + $f + '",';
     $c = $c + '"output" : "' + $o + '",';
     $c = $c + '"iterations" :700,';
-    $c = $c + '"style_layer_weight_exp" : 2,';
-    $c = $c + '"content_weight_blend" : 1,';
-    $c = $c + '"initial_image" : 0,';
-    $c = $c + '"pooling" : "max",';
-    $c = $c + '"preserve_colors" : 0,';
-    $c = $c + '"style_weight" : 300,';
+    $c = $c + '"style_layer_weight_exp" : ' + $style_layer_weight_exp + ',';
+    $c = $c + '"content_weight_blend" : ' + $content_weight_blend + ',';
+    $c = $c + '"initial_image" : ' + $initial_image + ',';
+    $c = $c + '"pooling" : "' + $pooling + '",';
+    $c = $c + '"preserve_colors" : ' + $initial_image + ',';
+    $c = $c + '"style_weight" : ' + $style_weight + ',';
     $c = $c + '"content_weight" : 5,';
     $c = $c + '"tv_weight" : 100,';
     $c = $c + '"learning_rate" : 10,';
@@ -51,6 +59,30 @@ title: Build
   <tr>
     <td><strong>Output:</strong></td>
     <td><input type="text" name="output" id="output" value=""></td>
+  </tr>
+  <tr>
+    <td><strong>style_layer_weight_exp:</strong> - default: 1, could be used to tweak how abstract the transfer should be.  For instance 0.2 would be for a finer features style transfer and 2.0 would be for a coarse features style transfer.</td>
+    <td><input type="text" name="style_layer_weight_exp" id="style_layer_weight_exp" value="2"></td>
+  </tr>
+  <tr>
+    <td><strong>content_weight_blend:</strong> - default: 1, specifies the coefficient of content transfer layers.  The value should be between 0 and 1.  For instance, with the default value, 1, the style transfer tries to preserve finer grain content details whereas 0.1 would mean a more abstract picture.</td>
+    <td><input type="text" name="content_weight_blend" id="content_weight_blend" value="1"></td>
+  </tr>
+  <tr>
+    <td><strong>initial_image:</strong> - default: 0, specifies whether to start with the content image or to start with random noise.  Setting to 0 (the default) means the process starts with random noise.  Setting to 1 mean the process starts with the content image.</td>
+    <td><input type="text" name="initial_image" id="initial_image" value="0"></td>
+  </tr>
+  <tr>
+    <td><strong>pooling:</strong> - default: max, selects whether to use avg or max pooling.   In general, max pooling tends to generate more artsy images whereas avg pooling stays truer to the original image.</td>
+    <td><input type="text" name="pooling" id="pooling" value="max"></td>
+  </tr>
+  <tr>
+    <td><strong>preserve_colors:</strong> - default: 0, tells the script whether or not the transfer colors.  Setting to 1 will allow the source image to keep its original colors.</td>
+    <td><input type="text" name="preserve_colors" id="preserve_colors" value="0"></td>
+  </tr>
+  <tr>
+    <td><strong>style_weight:</strong> - default: 500, tells the script how important the style image's artistic style is, in the loss function to calculate the output image. </td>
+    <td><input type="text" name="style_weight" id="style_weight" value="300"></td>
   </tr>
   <tr>
     <td colspan="2" align="center"><input type="button" onclick="buildcommand()" name="build" id="build" value="Build"></td>
