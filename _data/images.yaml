@@ -163,7 +163,7 @@
   image: >-
     https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/training/nazi/charlottesville-torches.jpg
   small: ''
-  medium: ''
+  medium: 'data://kinlane/source512/4dfde07b1891f317ffc4547a6063481e.jpg'
 - archive: archive
   title: Christ on Wall
   tags: 'christ, wall, church'
