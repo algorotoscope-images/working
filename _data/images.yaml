@@ -358,7 +358,7 @@
   image: >-
     https://s3.amazonaws.com/kinlane-productions/photos/green-tractor-on-farm.jpg
   small: ''
-  medium: ''
+  medium: 'data://kinlane/source512/6e31c76c0b1931ed9fff2b1c2dacd05d.jpg'
 - archive: archive
   title: Hitler Youth
   tags: 'nazi, filters'
