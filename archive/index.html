@@ -183,7 +183,7 @@ title: Algorotoscope Images Working - Archive
 			//console.log($images);
 			$yaml_dump = jsyaml.dump($images);
 
-			//document.getElementById('source').value = $yaml_dump;
+			document.getElementById('source').value = $yaml_dump;
 
 			// Grab the token from cookie
 			$oAuthToken = Cookies.get('token');
@@ -212,5 +212,6 @@ title: Algorotoscope Images Working - Archive
 			}
 		</script>
 		<center><p align="center"><input type="button" onclick="savethis();" class="button" value="Save Images" style="text-align: center;" /></p></center>
+		<textarea id="source" style="height: 100px; width: 100%;"></textarea>
 	</div>
 </div>
