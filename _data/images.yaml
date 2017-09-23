@@ -164,6 +164,15 @@
   small: 'https://farm5.staticflickr.com/4426/36397301165_e23318ce8d_m.jpg'
   medium: 'https://farm5.staticflickr.com/4426/36397301165_e23318ce8d.jpg'
 - archive: archive
+  title: Christopher-Richard-Wynne-Nevinson-Making-the-Engine.jpg
+  tags: 'industrial,filters'
+  url: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/Christopher-Richard-Wynne-Nevinson-Making-the-Engine.jpg
+  image: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/Christopher-Richard-Wynne-Nevinson-Making-the-Engine.jpg
+  small: ''
+  medium: ''
+- archive: archive
   title: Claud Monet 2
   tags: 'monet,sunset,lake,boats,filters'
   url: >-
@@ -877,11 +886,47 @@
   small: 'https://farm5.staticflickr.com/4390/36397284165_6a34055e8a_m.jpg'
   medium: 'https://farm5.staticflickr.com/4390/36397284165_6a34055e8a.jpg'
 - archive: archive
+  title: christopher-richard-wynne-nevinson-returning-to-the-trenches.jpg
+  tags: 'filters,ww1'
+  url: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/christopher-richard-wynne-nevinson-returning-to-the-trenches.jpg
+  image: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/christopher-richard-wynne-nevinson-returning-to-the-trenches.jpg
+  small: 'data://kinlane/source250/c4b4249058edcb32f47c899b69e92c97.jpg'
+  medium: ''
+- archive: archive
+  title: cyril-e-power-the-tube-train.jpg
+  tags: 'filters,ww1'
+  url: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/cyril-e-power-the-tube-train.jpg
+  image: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/cyril-e-power-the-tube-train.jpg
+  small: 'data://kinlane/source250/ef9d947b1798bdeb26fdc0d77a65569d.jpg'
+  medium: ''
+- archive: archive
+  title: harry-r-hopps-destroy-this-mad-brute-enlist.jpg
+  tags: 'filters,ww1'
+  url: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/harry-r-hopps-destroy-this-mad-brute-enlist.jpg
+  image: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/harry-r-hopps-destroy-this-mad-brute-enlist.jpg
+  small: 'data://kinlane/source250/7784d7e90e81efb79fd712498cf9c523.jpg'
+  medium: ''
+- archive: archive
+  title: henry-koemer-the-pigeons.jpg
+  tags: 'new york,pigeons,filters'
+  url: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/henry-koemer-the-pigeons.jpg
+  image: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/henry-koemer-the-pigeons.jpg
+  small: 'data://kinlane/source250/c63e5b1582e5a4931f356ef7985298d1.jpg'
+  medium: ''
+- archive: archive
   title: industrial
   tags: 'industrial,factory'
   url: ''
   image: 'https://farm3.staticflickr.com/2919/33932040916_901e53c5e0.jpg'
-  small: ''
+  small: 'data://kinlane/source250/4c5f15aa4bac60a79734a838dfc31030.jpg'
   medium: 'data://kinlane/source512/4c5f15aa4bac60a79734a838dfc31030.jpg'
 - archive: archive
   title: labyrinthine circuit board lines
@@ -898,72 +943,47 @@
   small: ''
   medium: 'data://kinlane/source512/16d83103e364045cc0ae4c9f846c1f13.jpg'
 - archive: archive
-  title: wounded-sailor-erich-heckel.jpg
+  title: now-back-the-bayonets-with-your-war-savings-certificates.JPG
   tags: 'filters,ww1'
-  url: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/wounded-sailor-erich-heckel.jpg'
-  image: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/wounded-sailor-erich-heckel.jpg'
-  small: ''
-  medium: ''
-- archive: archive
-  title: thomas-hart-benton-study-for-instruments-of-power.jpg
-  tags: 'filters,ww1'
-  url: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/thomas-hart-benton-study-for-instruments-of-power.jpg'
-  image: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/thomas-hart-benton-study-for-instruments-of-power.jpg'
-  small: ''
-  medium: ''
-- archive: archive
-  title: roger-de-la-fresnaye-artillery.jpg
-  tags: 'filters,ww1'
-  url: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/roger-de-la-fresnaye-artillery.jpg'
-  image: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/roger-de-la-fresnaye-artillery.jpg'
-  small: ''
+  url: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/now-back-the-bayonets-with-your-war-savings-certificates.JPG
+  image: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/now-back-the-bayonets-with-your-war-savings-certificates.JPG
+  small: 'data://kinlane/source250/039c77be57d05b7c69d25b6c93e54e7f.JPG'
   medium: ''
 - archive: archive
   title: remember-belgium-and-france-buy-nothing-from-the-germans.jpg
   tags: 'filters,ww1'
-  url: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/remember-belgium-and-france-buy-nothing-from-the-germans.jpg'
-  image: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/remember-belgium-and-france-buy-nothing-from-the-germans.jpg'
-  small: ''
+  url: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/remember-belgium-and-france-buy-nothing-from-the-germans.jpg
+  image: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/remember-belgium-and-france-buy-nothing-from-the-germans.jpg
+  small: 'data://kinlane/source250/d2486e5ff86f0343eccff561e7538ab9.jpg'
   medium: ''
 - archive: archive
-  title: now-back-the-bayonets-with-your-war-savings-certificates.JPG
+  title: roger-de-la-fresnaye-artillery.jpg
   tags: 'filters,ww1'
-  url: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/now-back-the-bayonets-with-your-war-savings-certificates.JPG'
-  image: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/now-back-the-bayonets-with-your-war-savings-certificates.JPG'
-  small: ''
+  url: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/roger-de-la-fresnaye-artillery.jpg
+  image: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/roger-de-la-fresnaye-artillery.jpg
+  small: 'data://kinlane/source250/9dca9dfcaec8e1fd47e84888a41a06eb.jpg'
   medium: ''
 - archive: archive
-  title: henry-koemer-the-pigeons.jpg
-  tags: 'new york,pigeons,filters'
-  url: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/henry-koemer-the-pigeons.jpg'
-  image: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/henry-koemer-the-pigeons.jpg'
-  small: ''
-  medium: ''
-- archive: archive
-  title: Christopher-Richard-Wynne-Nevinson-Making-the-Engine.jpg
-  tags: 'industrial,filters'
-  url: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/Christopher-Richard-Wynne-Nevinson-Making-the-Engine.jpg'
-  image: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/Christopher-Richard-Wynne-Nevinson-Making-the-Engine.jpg'
-  small: ''
-  medium: ''
-- archive: archive
-  title: christopher-richard-wynne-nevinson-returning-to-the-trenches.jpg
+  title: thomas-hart-benton-study-for-instruments-of-power.jpg
   tags: 'filters,ww1'
-  url: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/christopher-richard-wynne-nevinson-returning-to-the-trenches.jpg'
-  image: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/christopher-richard-wynne-nevinson-returning-to-the-trenches.jpg'
-  small: ''
+  url: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/thomas-hart-benton-study-for-instruments-of-power.jpg
+  image: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/thomas-hart-benton-study-for-instruments-of-power.jpg
+  small: 'data://kinlane/source250/e2ff933dfdd5c48e672c07595e6d041d.jpg'
   medium: ''
 - archive: archive
-  title: cyril-e-power-the-tube-train.jpg
+  title: wounded-sailor-erich-heckel.jpg
   tags: 'filters,ww1'
-  url: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/cyril-e-power-the-tube-train.jpg'
-  image: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/cyril-e-power-the-tube-train.jpg'
-  small: ''
-  medium: ''
-- archive: archive
-  title: harry-r-hopps-destroy-this-mad-brute-enlist.jpg
-  tags: 'filters,ww1'
-  url: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/harry-r-hopps-destroy-this-mad-brute-enlist.jpg'
-  image: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/harry-r-hopps-destroy-this-mad-brute-enlist.jpg'
-  small: ''
+  url: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/wounded-sailor-erich-heckel.jpg
+  image: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/wounded-sailor-erich-heckel.jpg
+  small: 'data://kinlane/source250/f58113ee0a9f6a202c001197a4532295.jpg'
   medium: ''
