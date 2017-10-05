@@ -86,30 +86,6 @@
   small: 'data://kinlane/source250/23072cefe3f96daca8cc734a77be1808.jpg'
   medium: ''
 - archive: archive
-  title: Dali Four
-  tags: 'salvador dali,paintings,filters'
-  url: ''
-  image: >-
-    https://s-media-cache-ak0.pinimg.com/736x/b2/3e/c8/b23ec8fad4face6ba9ea5151fc166fb2--the-interpretation-of-dreams-salvador-dali-art.jpg
-  small: 'data://kinlane/source250/3c899afbfcdcafe34b4607d8be1724cb.jpg'
-  medium: ''
-- archive: archive
-  title: Dali One
-  tags: 'salvador dali,paintings,filters'
-  url: ''
-  image: >-
-    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/training/training-dali.jpg
-  small: ''
-  medium: ''
-- archive: archive
-  title: Dali Three
-  tags: 'salvador dali,paintings,filters'
-  url: ''
-  image: >-
-    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/training/dali3.jpg
-  small: ''
-  medium: ''
-- archive: archive
   title: Bridge
   tags: bridge
   url: ''
@@ -273,6 +249,30 @@
   image: 'https://farm5.staticflickr.com/4360/36397299175_a134353a32.jpg'
   small: 'https://farm5.staticflickr.com/4360/36397299175_a134353a32_m.jpg'
   medium: 'https://farm5.staticflickr.com/4360/36397299175_a134353a32.jpg'
+- archive: archive
+  title: Dali Four
+  tags: 'salvador dali,paintings,filters'
+  url: ''
+  image: >-
+    https://s-media-cache-ak0.pinimg.com/736x/b2/3e/c8/b23ec8fad4face6ba9ea5151fc166fb2--the-interpretation-of-dreams-salvador-dali-art.jpg
+  small: 'data://kinlane/source250/3c899afbfcdcafe34b4607d8be1724cb.jpg'
+  medium: ''
+- archive: archive
+  title: Dali One
+  tags: 'salvador dali,paintings,filters'
+  url: ''
+  image: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/training/training-dali.jpg
+  small: 'data://kinlane/source250/2147101cfa284145ae2e1d81de0479e9.jpg'
+  medium: ''
+- archive: archive
+  title: Dali Three
+  tags: 'salvador dali,paintings,filters'
+  url: ''
+  image: >-
+    https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/training/dali3.jpg
+  small: 'data://kinlane/source250/8fdf9fe6b235775d6b0cfca4ab65e792.jpg'
+  medium: ''
 - archive: archive
   title: Declaration of Independence
   tags: 'government,declaration of independence,documents,filters'
