@@ -293,7 +293,7 @@
   image: https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/filters/world-war-one/wounded-sailor-erich-heckel.jpg
   small: data://kinlane/source250/f58113ee0a9f6a202c001197a4532295.jpg
   medium: ""
-- archive: ""
+- archive: "archive"
   title: New York City Skyline
   url: https://www.flickr.com/photos/kinlane/36655833162/in/dateposted-public/
   domain: www.flickr.com
@@ -301,31 +301,7 @@
   small: https://farm5.staticflickr.com/4363/36655833162_da246131f1_m.jpg
   medium: https://farm5.staticflickr.com/4363/36655833162_da246131f1.jpg
   tags: ""
-- archive: ""
-  title: Excellent Soviet space program matchbook covers from the 1950s
-  url: https://boingboing.net/?p=544527
-  domain: boingboing.net
-  image: ""
-  small: ""
-  medium: ""
-  tags: ""
-- archive: ""
-  title: "1955: Salvador Dal\xED poses nude with a starfish at his seaside villa"
-  url: http://mashable.com/?p=bp-54600
-  domain: mashable.com
-  image: ""
-  small: ""
-  medium: ""
-  tags: ""
-- archive: ""
-  title: 'Guest Post: Cloudinary Uses Scale API to Focus on Image Compression'
-  url: https://medium.com/p/a69a23bc3583
-  domain: medium.com
-  image: ""
-  small: ""
-  medium: ""
-  tags: ""
-- archive: ""
+- archive: "archive"
   title: IMG_4108
   url: https://www.flickr.com/photos/kinlane/36350672790/in/dateposted-public/
   domain: www.flickr.com
@@ -333,7 +309,7 @@
   small: https://farm5.staticflickr.com/4343/36350672790_9df8e45b74_m.jpg
   medium: https://farm5.staticflickr.com/4343/36350672790_9df8e45b74.jpg
   tags: ""
-- archive: ""
+- archive: "archive"
   title: IMG_5365
   url: https://www.flickr.com/photos/kinlane/36746998345/in/dateposted-public/
   domain: www.flickr.com
@@ -341,7 +317,7 @@
   small: https://farm5.staticflickr.com/4385/36746998345_57d2a582ed_m.jpg
   medium: https://farm5.staticflickr.com/4385/36746998345_57d2a582ed.jpg
   tags: ""
-- archive: ""
+- archive: "archive"
   title: IMG_5350
   url: https://www.flickr.com/photos/kinlane/35937624983/in/dateposted-public/
   domain: www.flickr.com
